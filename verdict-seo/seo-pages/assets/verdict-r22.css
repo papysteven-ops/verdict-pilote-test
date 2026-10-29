@@ -1,0 +1,61 @@
+/* R22: a readable document, a working counter, and the paper of a restaurant. */
+.r22-hero{padding-block:clamp(2.5rem,6vw,6rem) 2.5rem}
+.r22-hero-copy{max-width:960px}
+.r22-hero h1{max-width:22ch;font-size:clamp(2.15rem,4.8vw,4.4rem);line-height:1.06;text-wrap:balance}
+.r22-hero .reponse{max-width:64ch;font-size:clamp(1.075rem,1rem + .35vw,1.3rem);line-height:1.65}
+.r22-section .contenu{max-width:68ch;font-size:clamp(1.0625rem,1rem + .25vw,1.2rem);line-height:1.7}
+.r22-section h2,.r22-related h2{font-size:clamp(1.65rem,3vw,2.5rem);line-height:1.15;max-width:29ch;text-wrap:balance}
+.r22-section p{margin-block:1rem 1.35rem}
+.r22-section p:last-child{margin-bottom:0}
+.r22-toc{padding-block:.5rem 1.75rem}
+.r22-toc>details{max-width:68ch;border:1px solid var(--bord,#c7cbc8);border-radius:12px;padding:1rem 1.2rem}
+.r22-toc summary{font-size:1rem;cursor:pointer;font-weight:700}
+.r22-toc ol{display:grid;gap:.6rem;margin:1rem 0 0;padding-left:1.4rem}
+.r22-toc a{text-decoration:underline;text-underline-offset:4px}
+.r22-case{background:linear-gradient(145deg,#12392f,#09231f);color:#f8f5eb;overflow:hidden}
+.r22-case-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.8fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.r22-case h2{font-size:clamp(1.8rem,3vw,2.8rem);line-height:1.1;color:#faf5e9;max-width:22ch}
+.r22-case p{line-height:1.6;max-width:52ch}
+.r22-case .v-eyebrow{color:#a9e9cc}
+.r22-evidence-label{color:#b5c9be;font-size:.9rem;border-left:2px solid #bfdfa8;padding-left:1rem;margin-top:1.5rem}
+.r22-case .imprimante{width:100%;max-width:470px;margin:auto}
+.r22-case .ticket{color:#202a24;background:#fffbee}
+.r22-receipt-table{border-collapse:collapse;width:100%;font-size:1rem;color:#202a24;background:transparent}
+.r22-receipt-table th,.r22-receipt-table td{background:transparent;border:0;border-bottom:1px dashed #adb5a9;padding:1rem .15rem;vertical-align:top;line-height:1.4}
+.r22-receipt-table th{text-align:left;font-weight:500;max-width:22ch}
+.r22-receipt-table td{text-align:right;font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:1rem}
+.r22-receipt-table tr:last-child th,.r22-receipt-table tr:last-child td{border-bottom:0;font-weight:800;color:#143e2c}
+.r22-case .ticket-pied{color:#445147;font-size:.8rem;margin-top:1rem}
+.r22-action{background:color-mix(in srgb,var(--vert,#34866b) 9%,transparent);border-block:1px solid color-mix(in srgb,var(--vert,#34866b) 24%,transparent)}
+.r22-action h2{font-size:1rem;text-transform:uppercase;letter-spacing:.1em}
+.r22-action p{font-size:clamp(1.2rem,2.5vw,1.65rem);line-height:1.5;font-weight:600}
+.r22-next-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem;margin-top:1.75rem}
+.r22-next-card{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.3rem;border:1px solid var(--bord,#c5cbc5);border-radius:12px;color:inherit;text-decoration:none;line-height:1.4;transition:transform .18s,border-color .18s}
+.r22-next-card:hover{transform:translateY(-3px);border-color:var(--vert,#398568)}
+.r22-next-card b{font-size:1.4rem;color:var(--vert,#398568)}
+.r22-sources{font-size:.92rem}
+.r22-sources h2{font-size:1.3rem}
+.r22-reference-note{padding-block:2rem;border-top:1px solid var(--bord,#bcc5bc)}
+.r22-reference-note p{font-size:1rem;max-width:68ch}
+.r22-founder p{max-width:65ch;line-height:1.7;font-size:1.15rem}
+.r22-message-form{display:grid;gap:1.1rem;border:1px solid var(--bord,#bac5bc);border-radius:16px;padding:clamp(1rem,4vw,2rem)}
+.r22-message-form label,.r22-guide-search label{display:grid;gap:.6rem;font-weight:650}
+.r22-message-form input,.r22-message-form textarea,.r22-guide-search input{width:100%;font:inherit;font-size:1rem;padding:.9rem;border:1px solid var(--bord,#bbc7bb);border-radius:8px;background:var(--fond,#fff);color:var(--texte,#15241b);box-sizing:border-box}
+.r22-message-form textarea{resize:vertical}
+.r22-guide-search{padding-block:1rem 2.5rem;max-width:800px}
+.r22-guide-search p{font-size:.9rem;min-height:1.5em;margin:.6rem 0 0}
+.r22-guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:1rem}
+.r22-guide-card{padding:1.4rem;border:1px solid var(--bord,#bbc7bb);border-radius:12px}
+.r22-guide-card h3{font-size:1.25rem;line-height:1.3;margin:.3rem 0 .75rem}
+.r22-guide-card p{font-size:1rem;line-height:1.6;margin:0 0 1rem}
+.r22-guide-card>a{color:var(--vert,#267357);font-weight:700}
+.r22-guide-card small{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+.r22-guide-card[hidden]{display:none}
+.r22-calc-section .v-calculator{margin-top:1.5rem}
+.r22-menu-results{margin-top:1rem;padding-top:1rem;border-top:1px solid #456054}
+.r22-menu-results p{font-size:.9rem;margin:.4rem 0}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+html[data-theme="dark"] .r22-message-form input,html[data-theme="dark"] .r22-message-form textarea,html[data-theme="dark"] .r22-guide-search input{background:#17221d;color:#f4f6f1}
+@media(max-width:720px){.r22-case-grid{grid-template-columns:1fr;gap:2rem}.r22-case .imprimante{max-width:390px}.r22-receipt-table th,.r22-receipt-table td{font-size:.94rem}.r22-hero{padding-top:2.4rem}.r22-next-grid{grid-template-columns:1fr}.r22-section .contenu{line-height:1.65}.r22-calc-section .large{padding-inline:12px}.v-calculator .calc-field input{min-width:0}.v-console-result{gap:1rem}.r22-guide-card{padding:1.15rem}}
+@media(prefers-reduced-motion:reduce){.r22-next-card{transition:none}.r22-next-card:hover{transform:none}}
+@media print{.r22-toc,.r22-guide-search,.r22-message-form,.calc-actions{display:none}.r22-case{background:#fff;color:#000;break-inside:avoid}.r22-case h2,.r22-case .v-eyebrow,.r22-evidence-label{color:#000}.r22-case-grid{gap:1rem}.r22-section{break-inside:auto}.r22-section h2{break-after:avoid}}

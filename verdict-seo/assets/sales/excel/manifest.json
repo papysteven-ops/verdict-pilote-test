@@ -1,0 +1,51 @@
+{
+  "schema": "verdict-excel-captures/v1",
+  "generatedAt": "2026-10-29T14:57:11.137961+00:00",
+  "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
+  "renderMethod": "Rendu natif LibreOffice de copies privées d’impression figées aux valeurs mémorisées des classeurs. Aucun recalcul ni modification des originaux. Raster intégral du PDF, sans retouche des pixels. Ce ne sont pas des captures de l’interface Microsoft Excel.",
+  "projectionContext": "Prévisionnels personnels annuels de conception, pas des résultats d’exploitation constatés ni des gains clients.",
+  "files": [
+    {
+      "id": "chicky",
+      "file": "chicky-resultats.png",
+      "sitePath": "assets/sales/excel/chicky-resultats.png",
+      "sha256": "9e69159bb470ce5546e4b286ccb356ac722ed4ee76ae4425578e335a82f8fb1a",
+      "bytes": 465221,
+      "width": 4961,
+      "height": 1890,
+      "sourceWorkbook": "CHICKY PUNCH✅ Model client ✅.xlsx",
+      "sourceSHA256": "503d171f6f9acb74ce0a2151a50a4741c842aac28fb7ad4ee65f94bf43a28cc4",
+      "sheet": "RESULTATS",
+      "range": "RESULTATS!B1:G39",
+      "preTaxAnnualProjectionEUR": -44696.25,
+      "sourceValuesVerified": true,
+      "originalUnchanged": true,
+      "stylesDrawingsAndImagesPreserved": true,
+      "pixelPostprocessing": "none",
+      "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
+      "logoNotice": "Original CLEAN FUEL logo retained unchanged in both worksheets, including Chicky Punch",
+      "visuallyReviewed": true
+    },
+    {
+      "id": "clean",
+      "file": "clean-resultats.png",
+      "sitePath": "assets/sales/excel/clean-resultats.png",
+      "sha256": "a1bdd57b1c53f8e90e689c2eda90e590275462b3fbec7e208dbd12ede7fe8b06",
+      "bytes": 467236,
+      "width": 4961,
+      "height": 1890,
+      "sourceWorkbook": "✅ Model client ✅VERDICT_DATA CLEAN FUEL.xlsx",
+      "sourceSHA256": "ca95148cc4cc819a80ce3443143cb11247b852b27f6881e23ca32b5a0692822f",
+      "sheet": "RESULTATS",
+      "range": "RESULTATS!B1:G39",
+      "preTaxAnnualProjectionEUR": 38767.5,
+      "sourceValuesVerified": true,
+      "originalUnchanged": true,
+      "stylesDrawingsAndImagesPreserved": true,
+      "pixelPostprocessing": "none",
+      "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
+      "logoNotice": "Original CLEAN FUEL logo retained unchanged in both worksheets, including Chicky Punch",
+      "visuallyReviewed": true
+    }
+  ]
+}

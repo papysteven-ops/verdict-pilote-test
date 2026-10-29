@@ -109,7 +109,10 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (!url.href.startsWith(ROOT) || url.origin !== self.location.origin) return;
-  let rel = decodeURIComponent(url.pathname.slice(new URL(ROOT).pathname.length));
+  const relativePath = url.pathname.slice(new URL(ROOT).pathname.length);
+  /* Only the literal public namespace passes through; encoded paths stay inside the vault checks. */
+  if (!/[%\\]/.test(relativePath) && (relativePath === 'verdict-seo' || relativePath.startsWith('verdict-seo/'))) return;
+  let rel = decodeURIComponent(relativePath);
   if (rel === '' || rel.endsWith('/')) rel += 'index.html';
   if (rel === 'coffre.json') return e.respondWith(lirePage(req, e, url.searchParams.has('maj'))); /* C444 (L4, audit A55) */
   if (rel.startsWith('v/') || PLAIN.includes(rel) || rel.endsWith('sw.js')) return;

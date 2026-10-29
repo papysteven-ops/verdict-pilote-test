@@ -1,0 +1,28 @@
+/* Compact entry to the audited plan details, shared by Tarifs and the SEO homepage. */
+body .vo-related{padding-block:64px;background:#f3f5f9;color:#17243b}
+.vo-related .vo-kicker{font-size:12px!important;letter-spacing:.06em;font-weight:750;color:#53647e!important}
+.vo-related h2{font-size:clamp(28px,3.5vw,44px)!important;line-height:1.15;letter-spacing:-.035em;max-width:850px}
+.vo-related .vo-lead{max-width:830px;font-size:16px!important;line-height:1.7;color:#51617a!important}
+.vo-related .vo-shortcuts{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.vo-related .vo-shortcuts a{display:block;border:1px solid #cbd8ec;padding:10px 13px;border-radius:10px;background:#fff;color:#284974!important;font-size:14px!important;font-weight:650;text-decoration:none!important}.vo-related .vo-shortcuts a:hover{border-color:#5d87d2;background:#edf3ff}
+.vo-related .vo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:30px 0 22px}
+.vo-related .vo-card{display:flex;flex-direction:column;min-width:0;padding:27px 24px;background:#fff;border:1px solid #dce3ed;border-top:4px solid var(--vo-accent);border-radius:18px;box-shadow:0 10px 28px #24385407;scroll-margin-top:95px}
+.vo-inventaire{--vo-accent:#596aa8;--vo-soft:#f0f2fb}.vo-pilotage{--vo-accent:#245bd4;--vo-soft:#edf3ff}.vo-pro{--vo-accent:#b16811;--vo-soft:#fff5e7}
+.vo-related .vo-card-tag{font-size:12px;line-height:1.5;font-weight:650;color:var(--vo-accent)}
+.vo-related .vo-card h3{font-size:26px!important;letter-spacing:-.025em;color:#152641!important;margin:16px 0 9px}
+.vo-related .vo-question{font-size:16px!important;font-weight:650;line-height:1.55;min-height:75px;color:#283c59!important;margin:0 0 23px}
+.vo-related .vo-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:9px;margin:0!important}.vo-related .vo-price strong{font-size:43px!important;line-height:1.1;letter-spacing:-.05em;color:#0f213d!important}.vo-related .vo-price span{font-size:14px;color:#526078}
+.vo-related .vo-annual{font-size:14px!important;line-height:1.5;color:#516079!important;min-height:42px;margin-top:9px}
+.vo-related .vo-summary{font-size:15px!important;line-height:1.7;color:#4e5e75!important}
+.vo-related .vo-card ul{padding:0;list-style:none;margin:12px 0 22px}.vo-related .vo-card li{position:relative;padding:8px 0 8px 22px;font-size:14px!important;line-height:1.6;color:#30435e!important}.vo-related .vo-card li:before{content:'✓';position:absolute;left:0;color:var(--vo-accent);font-weight:800}
+.vo-related .vo-extra{font-size:14px!important;line-height:1.6;color:#52617a!important;margin-top:auto!important;padding-top:15px;border-top:1px solid #e6ebf2}
+.vo-related .vo-detail-link{display:block;margin-top:18px;border:1px solid #d4ddeb;border-radius:10px;padding:12px 14px;font-size:14px!important;line-height:1.5;font-weight:700;text-decoration:none!important;color:var(--vo-accent)!important;background:var(--vo-soft);transition:transform .18s,box-shadow .18s}
+.vo-related .vo-detail-link:hover{transform:translateY(-2px);box-shadow:0 5px 12px #24385412}
+.vo-related .vo-footnote{font-size:14px!important;line-height:1.75;color:#54647b!important;max-width:1000px}
+.vo-related .vo-compare,.vo-related .vo-founders{background:#fff;border:1px solid #d9e2ef;border-radius:14px;padding:18px 20px;margin:20px 0}
+.vo-related summary{cursor:pointer;color:#243b5c!important;line-height:1.6;font-size:15px!important}.vo-related summary>span{display:block;color:#5b6e88;font-size:14px;margin:4px 0 0 18px}
+.vo-related .vo-table-scroll{overflow:auto;margin-top:18px;max-width:100%;border:1px solid #e1e7f0;border-radius:9px}.vo-related table{display:table!important;width:100%;min-width:620px;border-collapse:collapse;font-size:14px!important}.vo-related caption{padding:14px;text-align:left;color:#53647d;line-height:1.6}.vo-related th,.vo-related td{padding:14px!important;border-bottom:1px solid #e2e8f0;text-align:left;font-size:14px!important;line-height:1.6}.vo-related thead{background:#f0f4fa}.vo-related tbody th{font-weight:550;width:48%}.vo-related tbody tr:nth-child(even){background:#fafbfd}
+.vo-related .vo-delta{padding:24px 27px;background:#edf3ff;border:1px solid #d3e0f8;border-radius:15px;margin:22px 0}.vo-related .vo-delta h3{font-size:25px!important;line-height:1.25;color:#16355e!important}.vo-related .vo-delta p:not(.vo-kicker){font-size:15px!important;line-height:1.75;color:#3e5473!important}.vo-related .vo-delta a,.vo-related .vo-all-link{font-size:15px;font-weight:700;color:#2357b8!important;text-underline-offset:4px;line-height:1.7}.vo-related .vo-founders p{font-size:14px!important;line-height:1.75;color:#54647b!important}
+.vo-related :focus-visible{outline:3px solid #3b76df!important;outline-offset:4px}
+@media(max-width:900px){.vo-related .vo-grid{grid-template-columns:1fr}.vo-related .vo-card{padding:25px}.vo-related .vo-question{min-height:0;max-width:650px}.vo-related .vo-annual{min-height:0}.vo-related .vo-card ul{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}}
+@media(max-width:480px){body .vo-related{padding-block:38px}.vo-related .vo-grid{gap:15px}.vo-related .vo-card{padding:23px 20px}.vo-related .vo-card ul{grid-template-columns:1fr}.vo-related .vo-compare,.vo-related .vo-founders{padding:17px}.vo-related .vo-delta{padding:21px}.vo-related .vo-price strong{font-size:40px!important}}
+@media(prefers-reduced-motion:reduce){.vo-related *{transition:none!important;scroll-behavior:auto!important}}
