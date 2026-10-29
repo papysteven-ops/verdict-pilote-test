@@ -1,0 +1,1263 @@
+{
+  "schema": "verdict-topic-native-captures/v1",
+  "catalogue": "matter-carte-inventaire",
+  "reviewedAtUTC": "2026-10-29T23:10:27.675252+00:00",
+  "status": "reviewed",
+  "application": "Verdict Client — Publication4",
+  "sourceCommit": "9585d43d23b3a150e3122370c56bf0b40882cdda",
+  "context": "Brasserie Collet — démonstration fictive native",
+  "language": "fr-FR",
+  "timezone": "Europe/Paris",
+  "colorScheme": "light (préférence native)",
+  "captureMethod": "Capture du navigateur après navigation et défilement natifs ; aucune reconstitution d’interface.",
+  "pixelIntegrity": "PNG natifs, pixels inchangés.",
+  "screens": [
+    {
+      "id": "carte-accueil",
+      "module": "Carte",
+      "screenTitle": "Ma carte : plats et objectifs de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Ma carte : plats et objectifs de marge.",
+      "limit": "Vue de la carte fictive ; indice de carte distinct de la santé de tout l’établissement.",
+      "topics": [
+        "carte restaurant",
+        "menu engineering",
+        "marge par plat"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Ma carte",
+          "Note de la carte : 84 / 100",
+          "Démonstration fictive"
+        ],
+        "mobile": [
+          "Ma carte",
+          "Note de la carte : 84 / 100",
+          "Démonstration fictive"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "carte-accueil.png",
+          "sitePath": "assets/sales/topics/carte-accueil.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "50df019a0eb81947097b61fbc05afe5b83500cbd796fca1edd2644766278b8e0",
+          "bytes": 273885,
+          "capturedAtUTC": "2026-10-29T23:04:12.045Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "carte-accueil-mobile.png",
+          "sitePath": "assets/sales/topics/carte-accueil-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "3752178bcc65b9099e27bd41800945ad3d6f40242c1e789c03315ad7a396691c",
+          "bytes": 97848,
+          "capturedAtUTC": "2026-10-29T23:04:31.700Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "carte-contribution",
+      "module": "Carte",
+      "screenTitle": "Ce que les plats gardent sur 100 €",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Ce que les plats gardent sur 100 €.",
+      "limit": "Contribution avant équipe, loyer et impôt ; les chiffres sont ceux du modèle fictif.",
+      "topics": [
+        "marge brute",
+        "contribution",
+        "food cost théorique",
+        "menu engineering"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Ce que vos plats gardent",
+          "74,7 €",
+          "avant l’équipe, le loyer et l’impôt"
+        ],
+        "mobile": [
+          "Ce que vos plats gardent",
+          "74,7 €",
+          "avant l’équipe, le loyer et l’impôt"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "carte-contribution.png",
+          "sitePath": "assets/sales/topics/carte-contribution.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "a065ea6fa30f8e14358180857c11209dec35fb653c3773e726f7d323da30825e",
+          "bytes": 705306,
+          "capturedAtUTC": "2026-10-29T23:04:13.093Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "carte-contribution-mobile.png",
+          "sitePath": "assets/sales/topics/carte-contribution-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "7859334a294d50d095965aa82e135d12444b5b2521635a755bb3193015cdf565",
+          "bytes": 213692,
+          "capturedAtUTC": "2026-10-29T23:04:32.606Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "carte-ventes",
+      "module": "Carte",
+      "screenTitle": "Ventes et contribution par plat",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Ventes et contribution par plat.",
+      "limit": "Volumes fictifs de la période choisie ; une contribution ne représente pas un bénéfice net.",
+      "topics": [
+        "ventes par article",
+        "mix de ventes",
+        "menu engineering",
+        "contribution période"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Ventes",
+          "Ventes prises en compte",
+          "Menu du jour (entrée + plat)"
+        ],
+        "mobile": [
+          "Ventes",
+          "Ventes prises en compte",
+          "Menu du jour (entrée + plat)"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "carte-ventes.png",
+          "sitePath": "assets/sales/topics/carte-ventes.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "bf2603ba9d291429a56e0a3e22e0a200c26934cb56e0a08416014ff8a768d726",
+          "bytes": 216668,
+          "capturedAtUTC": "2026-10-29T23:04:14.108Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "carte-ventes-mobile.png",
+          "sitePath": "assets/sales/topics/carte-ventes-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "2d63f7ae037fbf2b4ae86725d91c4e1925f9740298ce743bffb276be1008dc16",
+          "bytes": 100788,
+          "capturedAtUTC": "2026-10-29T23:04:33.573Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "carte-decisions",
+      "module": "Carte",
+      "screenTitle": "Écart des plats à leurs objectifs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Écart des plats à leurs objectifs.",
+      "limit": "Écart à des objectifs et simulations du modèle, sans gain garanti ni résultat client.",
+      "topics": [
+        "rentabilité de la carte",
+        "prix de vente",
+        "objectifs de marge"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Décisions",
+          "En septembre 2026, votre carte est à 1 933 € de vos objectifs",
+          "8 plats sous leur objectif"
+        ],
+        "mobile": [
+          "Décisions",
+          "En septembre 2026, votre carte est à 1 933 € de vos objectifs",
+          "8 plats sous leur objectif"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "carte-decisions.png",
+          "sitePath": "assets/sales/topics/carte-decisions.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "0a70f79cbcab530ad84673868cfa706596cac0a47b525404c189e2f37c24eca3",
+          "bytes": 315346,
+          "capturedAtUTC": "2026-10-29T23:04:15.159Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "carte-decisions-mobile.png",
+          "sitePath": "assets/sales/topics/carte-decisions-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "098232c73b2d3d5c0c7c2e7da8c83d6256d7c3d54a253f7d0024e1f4fbef8ee8",
+          "bytes": 182336,
+          "capturedAtUTC": "2026-10-29T23:04:34.601Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "plat-canaux",
+      "module": "Carte",
+      "screenTitle": "Ce qu’un plat laisse en salle et en livraison",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Ce qu’un plat laisse en salle et en livraison.",
+      "limit": "Données fictives ; commission et temps actif estimé restent à vérifier. Contribution avant charges fixes et impôt.",
+      "topics": [
+        "commission livraison",
+        "coût direct",
+        "contribution par canal",
+        "coût main-d’œuvre portion"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Ce que ce plat laisse vraiment",
+          "Sur place après matière",
+          "Livraison après travail direct"
+        ],
+        "mobile": [
+          "Ce que ce plat laisse vraiment",
+          "Sur place après matière",
+          "Livraison après travail direct"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "plat-canaux.png",
+          "sitePath": "assets/sales/topics/plat-canaux.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "49e249cc1d790283822bcc47b12466966aa07dc685a1ca81fc8167fe2a401687",
+          "bytes": 160590,
+          "capturedAtUTC": "2026-10-29T23:04:16.316Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "plat-canaux-mobile.png",
+          "sitePath": "assets/sales/topics/plat-canaux-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "c0564fc30787e4b0ef8c895619b15b40a6a6667da8c42213adc922703aafb61d",
+          "bytes": 95242,
+          "capturedAtUTC": "2026-10-29T23:04:35.684Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "fiche-technique-ingredients",
+      "module": "Carte",
+      "screenTitle": "Fiche technique : ingrédients et grammages",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Fiche technique : ingrédients et grammages.",
+      "limit": "Fiche native existante ouverte en consultation ; aucun ingrédient, prix, quantité ou plat enregistré pendant la capture.",
+      "topics": [
+        "fiche technique",
+        "coût portion",
+        "grammage",
+        "recette restaurant"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Recette — quantités en g / ml / unités",
+          "Entrecôte VBF",
+          "Pomme de terre"
+        ],
+        "mobile": [
+          "Recette — quantités en g / ml / unités",
+          "Entrecôte VBF",
+          "Pomme de terre"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "fiche-technique-ingredients.png",
+          "sitePath": "assets/sales/topics/fiche-technique-ingredients.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "c4070752d0688617576b6add5c7a5ec6cc3fb1f467e5c3f8d200f3d369cc5532",
+          "bytes": 217877,
+          "capturedAtUTC": "2026-10-29T23:04:17.498Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "fiche-technique-ingredients-mobile.png",
+          "sitePath": "assets/sales/topics/fiche-technique-ingredients-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "4adb8d81cdff11b55d8c47881038c6eb523ecd584702be8c9fe9aeee49ac41da",
+          "bytes": 83101,
+          "capturedAtUTC": "2026-10-29T23:04:36.684Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "fiche-technique-cout",
+      "module": "Carte",
+      "screenTitle": "Lecture détaillée du coût et de la contribution",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Lecture détaillée du coût et de la contribution.",
+      "limit": "Calcul analytique du modèle fictif avant charges fixes et impôt ; temps direct estimé, pas de retrait en double des salaires.",
+      "topics": [
+        "coût portion",
+        "coefficient multiplicateur",
+        "contribution salle livraison",
+        "coût direct pilotable"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Lecture en direct",
+          "Coefficient",
+          "Coût direct pilotable · salle"
+        ],
+        "mobile": [
+          "Lecture en direct",
+          "Coefficient",
+          "Coût direct pilotable · salle"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "fiche-technique-cout.png",
+          "sitePath": "assets/sales/topics/fiche-technique-cout.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "db11717ed9dfe3c12b6be55bb2ff0d4b88162432a142a74221b50f8464c31a59",
+          "bytes": 179083,
+          "capturedAtUTC": "2026-10-29T23:09:14.164Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "fiche-technique-cout-mobile.png",
+          "sitePath": "assets/sales/topics/fiche-technique-cout-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "350a13b428a3ff31e632d5e35eeeab3297f81b9942761b12b8973cb142d02434",
+          "bytes": 81183,
+          "capturedAtUTC": "2026-10-29T23:04:37.653Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "boisson-fiche-cout",
+      "module": "Carte",
+      "screenTitle": "Fiche Café : coût et coefficient de la boisson",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Fiche Café : coût et coefficient de la boisson.",
+      "limit": "Recette de Café du jeu fictif ; aucun cocktail ni résultat de vente réel représenté.",
+      "topics": [
+        "marge boissons",
+        "coût café",
+        "coefficient multiplicateur boisson"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Lecture en direct",
+          "Coefficient",
+          "Coût direct pilotable · salle"
+        ],
+        "mobile": [
+          "Lecture en direct",
+          "Coefficient",
+          "Coût direct pilotable · salle"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "boisson-fiche-cout.png",
+          "sitePath": "assets/sales/topics/boisson-fiche-cout.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "ebfb5f3140e429d2765ab123f4b25c1a485cdf401a60da63514fb56919cbabfe",
+          "bytes": 177214,
+          "capturedAtUTC": "2026-10-29T23:09:13.189Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "boisson-fiche-cout-mobile.png",
+          "sitePath": "assets/sales/topics/boisson-fiche-cout-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "96084ce7de74cd021230a142cc39ecc60abc220180dab7f9803d2e471a1071ad",
+          "bytes": 80555,
+          "capturedAtUTC": "2026-10-29T23:04:39.058Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-accueil",
+      "module": "Inventaire",
+      "screenTitle": "Inventaire : les priorités du stock",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Inventaire : les priorités du stock.",
+      "limit": "Priorités issues du jeu de démonstration ; aucune rupture ou commande réelle.",
+      "topics": [
+        "inventaire restaurant",
+        "ruptures",
+        "commande stock"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Que faut-il faire maintenant",
+          "1 rupture et 14 produits à commander",
+          "51 produits suivis, tous comptés"
+        ],
+        "mobile": [
+          "Que faut-il faire maintenant",
+          "1 rupture et 14 produits à commander",
+          "51 produits suivis, tous comptés"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-accueil.png",
+          "sitePath": "assets/sales/topics/stock-accueil.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "1f39264aa3071357ecf18410d399bc074e87d495b3e447006827448de5c679b1",
+          "bytes": 153991,
+          "capturedAtUTC": "2026-10-29T23:04:22.054Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-accueil-mobile.png",
+          "sitePath": "assets/sales/topics/stock-accueil-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "779d71b65ab0c32ec2b4054d988f9ecbf78ed9585fdc1b8edb3f9289f64f78d5",
+          "bytes": 90629,
+          "capturedAtUTC": "2026-10-29T23:04:40.577Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-comptage",
+      "module": "Inventaire",
+      "screenTitle": "Compter les quantités restantes",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Compter les quantités restantes.",
+      "limit": "Comptage du jeu fictif ; aucun restant n’a été modifié ou validé pendant la capture.",
+      "topics": [
+        "inventaire restaurant",
+        "comptage stock",
+        "rupture",
+        "unités stock"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Inventaire réalisé par",
+          "Une case vide reste à compter",
+          "Emmental râpé"
+        ],
+        "mobile": [
+          "Inventaire réalisé par",
+          "Une case vide reste à compter",
+          "Emmental râpé"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-comptage.png",
+          "sitePath": "assets/sales/topics/stock-comptage.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "09ae10e8309cba6c3c4190d480ff39f17210e69fb560f77a011a3191b685eff6",
+          "bytes": 110730,
+          "capturedAtUTC": "2026-10-29T23:04:22.935Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-comptage-mobile.png",
+          "sitePath": "assets/sales/topics/stock-comptage-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "728bbbf28472ea57a2bf09b76cd806cb1e977c60413d0df360408ab18ae736d8",
+          "bytes": 72630,
+          "capturedAtUTC": "2026-10-29T23:04:41.419Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-commandes",
+      "module": "Inventaire",
+      "screenTitle": "Commande par fournisseur et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Commande par fournisseur et colis.",
+      "limit": "Besoins et achats estimés de démonstration ; aucune commande transmise ni fournisseur contacté.",
+      "topics": [
+        "commande fournisseur",
+        "colis",
+        "réapprovisionnement",
+        "rupture"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Œuf frais calibre M",
+          "8 colis de 30",
+          "Total estimé"
+        ],
+        "mobile": [
+          "Œuf frais calibre M",
+          "8 colis de 30",
+          "Total estimé"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-commandes.png",
+          "sitePath": "assets/sales/topics/stock-commandes.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "93500dfc1b84b6a3ab15ea7dee8d2ee1600ff984a007f4c399773c53a3e40101",
+          "bytes": 192567,
+          "capturedAtUTC": "2026-10-29T23:04:24.139Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-commandes-mobile.png",
+          "sitePath": "assets/sales/topics/stock-commandes-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "a1e7373287b44d2ed198edd1c10cc680d35e0cf3f64158db90821934772911b9",
+          "bytes": 88565,
+          "capturedAtUTC": "2026-10-29T23:09:19.353Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-fournisseurs",
+      "module": "Inventaire",
+      "screenTitle": "Comparer des tarifs fournisseurs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Comparer des tarifs fournisseurs.",
+      "limit": "État natif sans tarif importé : il illustre la préparation du comparatif, pas une économie ni un classement calculé.",
+      "topics": [
+        "comparaison fournisseurs",
+        "prix achat HT",
+        "colis",
+        "coût livré"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Comparer mes fournisseurs",
+          "Importer un tarif",
+          "Coller un tableau"
+        ],
+        "mobile": [
+          "Comparer mes fournisseurs",
+          "Importer un tarif",
+          "Coller un tableau"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-fournisseurs.png",
+          "sitePath": "assets/sales/topics/stock-fournisseurs.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "ecf724e86b9080e2ea1a31c34f07969c25c8a7d63ac5ff77d957bf8f935f08d9",
+          "bytes": 105132,
+          "capturedAtUTC": "2026-10-29T23:04:24.645Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-fournisseurs-mobile.png",
+          "sitePath": "assets/sales/topics/stock-fournisseurs-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "e37c5b04a019273f58d3f5cde2e174821264bdf99f67c851dc862b9e1b787a7c",
+          "bytes": 67091,
+          "capturedAtUTC": "2026-10-29T23:04:43.097Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-fiche-produit",
+      "module": "Inventaire",
+      "screenTitle": "Fiche produit : seuil, prix et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Fiche produit : seuil, prix et colis.",
+      "limit": "Produit fictif existant ouvert ; valeurs non changées, aucune sauvegarde effectuée.",
+      "topics": [
+        "stock idéal",
+        "seuil alerte",
+        "prix achat",
+        "conditionnement fournisseur"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Stock idéal",
+          "Alerte si moins de",
+          "Commande intelligente"
+        ],
+        "mobile": [
+          "Stock idéal",
+          "Alerte si moins de",
+          "Commande intelligente"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-fiche-produit.png",
+          "sitePath": "assets/sales/topics/stock-fiche-produit.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "de1dfb7ddf3a5fa77103352674af46a000ba40739a0d6fcc7af0212fb7bc5da2",
+          "bytes": 145847,
+          "capturedAtUTC": "2026-10-29T23:04:25.924Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-fiche-produit-mobile.png",
+          "sitePath": "assets/sales/topics/stock-fiche-produit-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "833cdbd483ef294ec67c7f4c668e183ea42b9d46409eb3d66a5707bafd6219fb",
+          "bytes": 72758,
+          "capturedAtUTC": "2026-10-29T23:04:44.456Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "stock-valorisation",
+      "module": "Inventaire",
+      "screenTitle": "Valeur du stock et besoins par fournisseur",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Valeur du stock et besoins par fournisseur.",
+      "limit": "Valeur calculée sur les quantités comptées et prix connus du jeu fictif ; ce n’est pas une économie réalisée.",
+      "topics": [
+        "stock valorisé",
+        "besoin brut",
+        "valorisation inventaire",
+        "achats par fournisseur"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "VALEUR DU STOCK",
+          "BESOIN BRUT",
+          "Valeur du stock par fournisseur"
+        ],
+        "mobile": [
+          "VALEUR DU STOCK",
+          "BESOIN BRUT",
+          "Valeur du stock par fournisseur"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "stock-valorisation.png",
+          "sitePath": "assets/sales/topics/stock-valorisation.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "69e6d10bf66f9cee05c2e8bf13b4acc7b0208f11bc548e14a0342177d58ec00e",
+          "bytes": 98891,
+          "capturedAtUTC": "2026-10-29T23:04:27.144Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "stock-valorisation-mobile.png",
+          "sitePath": "assets/sales/topics/stock-valorisation-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "e617ead7d81ff78e05057eed289c163a65ceab274e7a0ca558bf86b72f72657d",
+          "bytes": 74078,
+          "capturedAtUTC": "2026-10-29T23:04:45.664Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "matiere-cloture-pro",
+      "module": "Inventaire · lecture Pro",
+      "screenTitle": "Clôture matière : réel et théorique",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Clôture matière : réel et théorique.",
+      "limit": "Lecture économique Pro. Réel contre théorique de démonstration ; un écart à vérifier ne prouve ni perte, ni vol, ni économie.",
+      "topics": [
+        "food cost réel",
+        "food cost théorique",
+        "écart matière",
+        "clôture stock",
+        "pertes à vérifier"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Clôture matière",
+          "Réellement consommé",
+          "Selon vos recettes (ventes × fiches)"
+        ],
+        "mobile": [
+          "Clôture matière",
+          "Réellement consommé",
+          "Selon vos recettes (ventes × fiches)"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "matiere-cloture-pro.png",
+          "sitePath": "assets/sales/topics/matiere-cloture-pro.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "1d9b3d49b9439ea667fdb3a67a9ac5bdb6cd7466d8d5468b762fe8920c1ea034",
+          "bytes": 151560,
+          "capturedAtUTC": "2026-10-29T23:04:28.735Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "matiere-cloture-pro-mobile.png",
+          "sitePath": "assets/sales/topics/matiere-cloture-pro-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "cefa3c754e74611a7b3394e68407a02806d9fcf01c97001f0a9678cd59f6422d",
+          "bytes": 93718,
+          "capturedAtUTC": "2026-10-29T23:04:47.236Z",
+          "variant": "mobile"
+        }
+      }
+    },
+    {
+      "id": "boisson-accueil",
+      "module": "Carte",
+      "screenTitle": "Café : prix et objectif de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "caption": "Capture réelle de Verdict — démonstration fictive Brasserie Collet. Café : prix et objectif de marge.",
+      "limit": "Fiche du Café fictif ; contribution avant charges fixes et impôt, aucune preuve client.",
+      "topics": [
+        "marge boissons",
+        "coût café",
+        "prix boisson",
+        "coût main-d’œuvre boisson"
+      ],
+      "visibleMarkers": {
+        "desktop": [
+          "Café",
+          "2,60 €",
+          "Démonstration fictive"
+        ],
+        "mobile": [
+          "Café",
+          "2,60 €",
+          "Démonstration fictive"
+        ]
+      },
+      "images": {
+        "desktop": {
+          "file": "boisson-accueil.png",
+          "sitePath": "assets/sales/topics/boisson-accueil.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "02621cdc89f0a9f6f05b57877d83eba4c080c83dd47bcc7102ee96c65db48d1a",
+          "bytes": 227602,
+          "capturedAtUTC": "2026-10-29T23:09:12.565Z",
+          "variant": "desktop"
+        },
+        "mobile": {
+          "file": "boisson-accueil-mobile.png",
+          "sitePath": "assets/sales/topics/boisson-accueil-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "541fa61e66f7c2f3e838f30bc7e0d5856827dc7ac8ab8f7fb660868a53a12f4e",
+          "bytes": 104247,
+          "capturedAtUTC": "2026-10-29T23:09:17.511Z",
+          "variant": "mobile"
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "carte-accueil-desktop",
+      "screenId": "carte-accueil",
+      "module": "Carte",
+      "screenTitle": "Ma carte : plats et objectifs de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-accueil.png",
+      "sitePath": "assets/sales/topics/carte-accueil.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "50df019a0eb81947097b61fbc05afe5b83500cbd796fca1edd2644766278b8e0",
+      "bytes": 273885,
+      "capturedAtUTC": "2026-10-29T23:04:12.045Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "carte-contribution-desktop",
+      "screenId": "carte-contribution",
+      "module": "Carte",
+      "screenTitle": "Ce que les plats gardent sur 100 €",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-contribution.png",
+      "sitePath": "assets/sales/topics/carte-contribution.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "a065ea6fa30f8e14358180857c11209dec35fb653c3773e726f7d323da30825e",
+      "bytes": 705306,
+      "capturedAtUTC": "2026-10-29T23:04:13.093Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "carte-ventes-desktop",
+      "screenId": "carte-ventes",
+      "module": "Carte",
+      "screenTitle": "Ventes et contribution par plat",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-ventes.png",
+      "sitePath": "assets/sales/topics/carte-ventes.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "bf2603ba9d291429a56e0a3e22e0a200c26934cb56e0a08416014ff8a768d726",
+      "bytes": 216668,
+      "capturedAtUTC": "2026-10-29T23:04:14.108Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "carte-decisions-desktop",
+      "screenId": "carte-decisions",
+      "module": "Carte",
+      "screenTitle": "Écart des plats à leurs objectifs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-decisions.png",
+      "sitePath": "assets/sales/topics/carte-decisions.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "0a70f79cbcab530ad84673868cfa706596cac0a47b525404c189e2f37c24eca3",
+      "bytes": 315346,
+      "capturedAtUTC": "2026-10-29T23:04:15.159Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "plat-canaux-desktop",
+      "screenId": "plat-canaux",
+      "module": "Carte",
+      "screenTitle": "Ce qu’un plat laisse en salle et en livraison",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "plat-canaux.png",
+      "sitePath": "assets/sales/topics/plat-canaux.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "49e249cc1d790283822bcc47b12466966aa07dc685a1ca81fc8167fe2a401687",
+      "bytes": 160590,
+      "capturedAtUTC": "2026-10-29T23:04:16.316Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "fiche-technique-ingredients-desktop",
+      "screenId": "fiche-technique-ingredients",
+      "module": "Carte",
+      "screenTitle": "Fiche technique : ingrédients et grammages",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "fiche-technique-ingredients.png",
+      "sitePath": "assets/sales/topics/fiche-technique-ingredients.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "c4070752d0688617576b6add5c7a5ec6cc3fb1f467e5c3f8d200f3d369cc5532",
+      "bytes": 217877,
+      "capturedAtUTC": "2026-10-29T23:04:17.498Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "fiche-technique-cout-desktop",
+      "screenId": "fiche-technique-cout",
+      "module": "Carte",
+      "screenTitle": "Lecture détaillée du coût et de la contribution",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "fiche-technique-cout.png",
+      "sitePath": "assets/sales/topics/fiche-technique-cout.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "db11717ed9dfe3c12b6be55bb2ff0d4b88162432a142a74221b50f8464c31a59",
+      "bytes": 179083,
+      "capturedAtUTC": "2026-10-29T23:09:14.164Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "boisson-fiche-cout-desktop",
+      "screenId": "boisson-fiche-cout",
+      "module": "Carte",
+      "screenTitle": "Fiche Café : coût et coefficient de la boisson",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "boisson-fiche-cout.png",
+      "sitePath": "assets/sales/topics/boisson-fiche-cout.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "ebfb5f3140e429d2765ab123f4b25c1a485cdf401a60da63514fb56919cbabfe",
+      "bytes": 177214,
+      "capturedAtUTC": "2026-10-29T23:09:13.189Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-accueil-desktop",
+      "screenId": "stock-accueil",
+      "module": "Inventaire",
+      "screenTitle": "Inventaire : les priorités du stock",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-accueil.png",
+      "sitePath": "assets/sales/topics/stock-accueil.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1f39264aa3071357ecf18410d399bc074e87d495b3e447006827448de5c679b1",
+      "bytes": 153991,
+      "capturedAtUTC": "2026-10-29T23:04:22.054Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-comptage-desktop",
+      "screenId": "stock-comptage",
+      "module": "Inventaire",
+      "screenTitle": "Compter les quantités restantes",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-comptage.png",
+      "sitePath": "assets/sales/topics/stock-comptage.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "09ae10e8309cba6c3c4190d480ff39f17210e69fb560f77a011a3191b685eff6",
+      "bytes": 110730,
+      "capturedAtUTC": "2026-10-29T23:04:22.935Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-commandes-desktop",
+      "screenId": "stock-commandes",
+      "module": "Inventaire",
+      "screenTitle": "Commande par fournisseur et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-commandes.png",
+      "sitePath": "assets/sales/topics/stock-commandes.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "93500dfc1b84b6a3ab15ea7dee8d2ee1600ff984a007f4c399773c53a3e40101",
+      "bytes": 192567,
+      "capturedAtUTC": "2026-10-29T23:04:24.139Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-fournisseurs-desktop",
+      "screenId": "stock-fournisseurs",
+      "module": "Inventaire",
+      "screenTitle": "Comparer des tarifs fournisseurs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-fournisseurs.png",
+      "sitePath": "assets/sales/topics/stock-fournisseurs.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "ecf724e86b9080e2ea1a31c34f07969c25c8a7d63ac5ff77d957bf8f935f08d9",
+      "bytes": 105132,
+      "capturedAtUTC": "2026-10-29T23:04:24.645Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-fiche-produit-desktop",
+      "screenId": "stock-fiche-produit",
+      "module": "Inventaire",
+      "screenTitle": "Fiche produit : seuil, prix et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-fiche-produit.png",
+      "sitePath": "assets/sales/topics/stock-fiche-produit.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "de1dfb7ddf3a5fa77103352674af46a000ba40739a0d6fcc7af0212fb7bc5da2",
+      "bytes": 145847,
+      "capturedAtUTC": "2026-10-29T23:04:25.924Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "stock-valorisation-desktop",
+      "screenId": "stock-valorisation",
+      "module": "Inventaire",
+      "screenTitle": "Valeur du stock et besoins par fournisseur",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-valorisation.png",
+      "sitePath": "assets/sales/topics/stock-valorisation.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "69e6d10bf66f9cee05c2e8bf13b4acc7b0208f11bc548e14a0342177d58ec00e",
+      "bytes": 98891,
+      "capturedAtUTC": "2026-10-29T23:04:27.144Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "matiere-cloture-pro-desktop",
+      "screenId": "matiere-cloture-pro",
+      "module": "Inventaire · lecture Pro",
+      "screenTitle": "Clôture matière : réel et théorique",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "matiere-cloture-pro.png",
+      "sitePath": "assets/sales/topics/matiere-cloture-pro.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1d9b3d49b9439ea667fdb3a67a9ac5bdb6cd7466d8d5468b762fe8920c1ea034",
+      "bytes": 151560,
+      "capturedAtUTC": "2026-10-29T23:04:28.735Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "carte-accueil-mobile",
+      "screenId": "carte-accueil",
+      "module": "Carte",
+      "screenTitle": "Ma carte : plats et objectifs de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-accueil-mobile.png",
+      "sitePath": "assets/sales/topics/carte-accueil-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "3752178bcc65b9099e27bd41800945ad3d6f40242c1e789c03315ad7a396691c",
+      "bytes": 97848,
+      "capturedAtUTC": "2026-10-29T23:04:31.700Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "carte-contribution-mobile",
+      "screenId": "carte-contribution",
+      "module": "Carte",
+      "screenTitle": "Ce que les plats gardent sur 100 €",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-contribution-mobile.png",
+      "sitePath": "assets/sales/topics/carte-contribution-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "7859334a294d50d095965aa82e135d12444b5b2521635a755bb3193015cdf565",
+      "bytes": 213692,
+      "capturedAtUTC": "2026-10-29T23:04:32.606Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "carte-ventes-mobile",
+      "screenId": "carte-ventes",
+      "module": "Carte",
+      "screenTitle": "Ventes et contribution par plat",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-ventes-mobile.png",
+      "sitePath": "assets/sales/topics/carte-ventes-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "2d63f7ae037fbf2b4ae86725d91c4e1925f9740298ce743bffb276be1008dc16",
+      "bytes": 100788,
+      "capturedAtUTC": "2026-10-29T23:04:33.573Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "carte-decisions-mobile",
+      "screenId": "carte-decisions",
+      "module": "Carte",
+      "screenTitle": "Écart des plats à leurs objectifs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "carte-decisions-mobile.png",
+      "sitePath": "assets/sales/topics/carte-decisions-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "098232c73b2d3d5c0c7c2e7da8c83d6256d7c3d54a253f7d0024e1f4fbef8ee8",
+      "bytes": 182336,
+      "capturedAtUTC": "2026-10-29T23:04:34.601Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "plat-canaux-mobile",
+      "screenId": "plat-canaux",
+      "module": "Carte",
+      "screenTitle": "Ce qu’un plat laisse en salle et en livraison",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "plat-canaux-mobile.png",
+      "sitePath": "assets/sales/topics/plat-canaux-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "c0564fc30787e4b0ef8c895619b15b40a6a6667da8c42213adc922703aafb61d",
+      "bytes": 95242,
+      "capturedAtUTC": "2026-10-29T23:04:35.684Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "fiche-technique-ingredients-mobile",
+      "screenId": "fiche-technique-ingredients",
+      "module": "Carte",
+      "screenTitle": "Fiche technique : ingrédients et grammages",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "fiche-technique-ingredients-mobile.png",
+      "sitePath": "assets/sales/topics/fiche-technique-ingredients-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "4adb8d81cdff11b55d8c47881038c6eb523ecd584702be8c9fe9aeee49ac41da",
+      "bytes": 83101,
+      "capturedAtUTC": "2026-10-29T23:04:36.684Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "fiche-technique-cout-mobile",
+      "screenId": "fiche-technique-cout",
+      "module": "Carte",
+      "screenTitle": "Lecture détaillée du coût et de la contribution",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "fiche-technique-cout-mobile.png",
+      "sitePath": "assets/sales/topics/fiche-technique-cout-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "350a13b428a3ff31e632d5e35eeeab3297f81b9942761b12b8973cb142d02434",
+      "bytes": 81183,
+      "capturedAtUTC": "2026-10-29T23:04:37.653Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "boisson-fiche-cout-mobile",
+      "screenId": "boisson-fiche-cout",
+      "module": "Carte",
+      "screenTitle": "Fiche Café : coût et coefficient de la boisson",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "boisson-fiche-cout-mobile.png",
+      "sitePath": "assets/sales/topics/boisson-fiche-cout-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "96084ce7de74cd021230a142cc39ecc60abc220180dab7f9803d2e471a1071ad",
+      "bytes": 80555,
+      "capturedAtUTC": "2026-10-29T23:04:39.058Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-accueil-mobile",
+      "screenId": "stock-accueil",
+      "module": "Inventaire",
+      "screenTitle": "Inventaire : les priorités du stock",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-accueil-mobile.png",
+      "sitePath": "assets/sales/topics/stock-accueil-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "779d71b65ab0c32ec2b4054d988f9ecbf78ed9585fdc1b8edb3f9289f64f78d5",
+      "bytes": 90629,
+      "capturedAtUTC": "2026-10-29T23:04:40.577Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-comptage-mobile",
+      "screenId": "stock-comptage",
+      "module": "Inventaire",
+      "screenTitle": "Compter les quantités restantes",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-comptage-mobile.png",
+      "sitePath": "assets/sales/topics/stock-comptage-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "728bbbf28472ea57a2bf09b76cd806cb1e977c60413d0df360408ab18ae736d8",
+      "bytes": 72630,
+      "capturedAtUTC": "2026-10-29T23:04:41.419Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-commandes-mobile",
+      "screenId": "stock-commandes",
+      "module": "Inventaire",
+      "screenTitle": "Commande par fournisseur et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-commandes-mobile.png",
+      "sitePath": "assets/sales/topics/stock-commandes-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a1e7373287b44d2ed198edd1c10cc680d35e0cf3f64158db90821934772911b9",
+      "bytes": 88565,
+      "capturedAtUTC": "2026-10-29T23:09:19.353Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-fournisseurs-mobile",
+      "screenId": "stock-fournisseurs",
+      "module": "Inventaire",
+      "screenTitle": "Comparer des tarifs fournisseurs",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-fournisseurs-mobile.png",
+      "sitePath": "assets/sales/topics/stock-fournisseurs-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "e37c5b04a019273f58d3f5cde2e174821264bdf99f67c851dc862b9e1b787a7c",
+      "bytes": 67091,
+      "capturedAtUTC": "2026-10-29T23:04:43.097Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-fiche-produit-mobile",
+      "screenId": "stock-fiche-produit",
+      "module": "Inventaire",
+      "screenTitle": "Fiche produit : seuil, prix et colis",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-fiche-produit-mobile.png",
+      "sitePath": "assets/sales/topics/stock-fiche-produit-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "833cdbd483ef294ec67c7f4c668e183ea42b9d46409eb3d66a5707bafd6219fb",
+      "bytes": 72758,
+      "capturedAtUTC": "2026-10-29T23:04:44.456Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "stock-valorisation-mobile",
+      "screenId": "stock-valorisation",
+      "module": "Inventaire",
+      "screenTitle": "Valeur du stock et besoins par fournisseur",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "stock-valorisation-mobile.png",
+      "sitePath": "assets/sales/topics/stock-valorisation-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "e617ead7d81ff78e05057eed289c163a65ceab274e7a0ca558bf86b72f72657d",
+      "bytes": 74078,
+      "capturedAtUTC": "2026-10-29T23:04:45.664Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "matiere-cloture-pro-mobile",
+      "screenId": "matiere-cloture-pro",
+      "module": "Inventaire · lecture Pro",
+      "screenTitle": "Clôture matière : réel et théorique",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "matiere-cloture-pro-mobile.png",
+      "sitePath": "assets/sales/topics/matiere-cloture-pro-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "cefa3c754e74611a7b3394e68407a02806d9fcf01c97001f0a9678cd59f6422d",
+      "bytes": 93718,
+      "capturedAtUTC": "2026-10-29T23:04:47.236Z",
+      "variant": "mobile"
+    },
+    {
+      "id": "boisson-accueil-desktop",
+      "screenId": "boisson-accueil",
+      "module": "Carte",
+      "screenTitle": "Café : prix et objectif de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "boisson-accueil.png",
+      "sitePath": "assets/sales/topics/boisson-accueil.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "02621cdc89f0a9f6f05b57877d83eba4c080c83dd47bcc7102ee96c65db48d1a",
+      "bytes": 227602,
+      "capturedAtUTC": "2026-10-29T23:09:12.565Z",
+      "variant": "desktop"
+    },
+    {
+      "id": "boisson-accueil-mobile",
+      "screenId": "boisson-accueil",
+      "module": "Carte",
+      "screenTitle": "Café : prix et objectif de marge",
+      "context": "Brasserie Collet — démonstration fictive native",
+      "file": "boisson-accueil-mobile.png",
+      "sitePath": "assets/sales/topics/boisson-accueil-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "541fa61e66f7c2f3e838f30bc7e0d5856827dc7ac8ab8f7fb660868a53a12f4e",
+      "bytes": 104247,
+      "capturedAtUTC": "2026-10-29T23:09:17.511Z",
+      "variant": "mobile"
+    }
+  ]
+}

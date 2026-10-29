@@ -1,7 +1,7 @@
 (function(g){"use strict";g.VERDICT_SEO_CORPUS=Object.freeze({
   "schema": "verdict-seo-public/v1",
-  "release": "VERDICT-SEO-PUBLIC-20261029",
-  "generatedAt": "2026-10-29",
+  "release": "VERDICT-SEO-PUBLIC-20261030",
+  "generatedAt": "2026-10-30",
   "count": 109,
   "dossierCount": 109,
   "actualCount": 109,
@@ -59,7 +59,7 @@
       "canonicalPath": "baisser-food-cost-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "bc40c02384e8c3d135a42cd27ac71d6a09d50e89afbe93dc39615cdcf6931346",
+      "sha256": "dc20c612335b2da773330dec7f42a5c358b2ad9e9073b458ccf2da84edbe88ab",
       "navigationTitle": "Réduire le food cost",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 26
@@ -77,7 +77,7 @@
       "canonicalPath": "ca-minimum-par-jour-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "9d4b1428b91ffe8e61d2bb3287600f7b40e8d8ab5f093fe47a7f8092bfa02bfe",
+      "sha256": "78f2c57a890bff30fe99f445dbb1ce75d1e4da8e2b0e623799f3c146e1881878",
       "navigationTitle": "CA minimum du jour et couverts à réaliser",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 10
@@ -95,7 +95,7 @@
       "canonicalPath": "ca-moyen-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "1ddeef941a00c90fd7ddde3a1a0c15c1fd607c14ed100fd2c49069523cf5d52a",
+      "sha256": "61af17750cf7e7c1d26449872529d4ec57b0bcd937c6e7d706f3762542ce72e8",
       "navigationTitle": "Chiffre d’affaires moyen",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 45
@@ -113,7 +113,7 @@
       "canonicalPath": "calcul-prix-revient-plat.html",
       "indexable": true,
       "alias": false,
-      "sha256": "7d34a146715c7ad5cada7f75cdaa4901f2622c5e6799cc5ce50ac856492fa527",
+      "sha256": "acea5f465bdfa15ade9a69f3eed469aa4e7ac4731247233503f6a21a9e6ea022",
       "navigationTitle": "Calculer le prix de revient d’un plat",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 34
@@ -149,7 +149,7 @@
       "canonicalPath": "charges-fixes-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "98a691c3601fc8231456cefe59ee1ad5efdb1ef650220627ac0b1be31ef4e3f4",
+      "sha256": "0d0ccf85e52b82f7b0052c9099b2faee1e44878e1af59b98d66e53da53644863",
       "navigationTitle": "Charges fixes du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 19
@@ -167,7 +167,7 @@
       "canonicalPath": "charges-variables-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "3c67e8c076c3fbc00c1c9054b91ae833b6a3e6f40a7a02b4b9acac1a9d555e70",
+      "sha256": "8d09b028d6d3fb6ce131848913dfef2624fbe44cb94d8a41ab508ed1326fdeac",
       "navigationTitle": "Charges variables du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 20
@@ -185,7 +185,7 @@
       "canonicalPath": "coefficient-multiplicateur-restauration.html",
       "indexable": true,
       "alias": false,
-      "sha256": "f24eacf2163b4aacac89b8e8614a6b1099525e2f730ea3b820a1a9254ed8adf8",
+      "sha256": "5df0f59d5d1317c3a674af0cc6672fbbcb7d83a1e668c67a0ede4f5c3290da4a",
       "navigationTitle": "Coefficient multiplicateur",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 33
@@ -203,7 +203,7 @@
       "canonicalPath": "combien-gagne-un-restaurateur.html",
       "indexable": true,
       "alias": false,
-      "sha256": "aded0816d8784860ca6238cb06a8004eb81b005c98065a0e65a040da6fa3e63e",
+      "sha256": "8d893ac46e167e7e11e39133ee553211985bf96a0db5a4478507028afb6a87fb",
       "navigationTitle": "Revenu et rémunération du restaurateur",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 15
@@ -221,7 +221,7 @@
       "canonicalPath": "commande-fournisseur-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "64bed0b950b6279a8d14f96726b8f6963f5a281ba91b969e685919a035ae9890",
+      "sha256": "5b8531480a87a24db396c2835e370b62bcfef3a2a0bda14b3cf78b6a20aace33",
       "navigationTitle": "Commandes fournisseurs et ruptures de stock",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 49
@@ -239,7 +239,7 @@
       "canonicalPath": "commission-deliveroo-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "d92b4ccfd4844097dbac0e1c2b5ce08d35cffc2bd03d250c1549eb474494de4a",
+      "sha256": "18f91cf7f9f980b0a350c69d57de1c83a22b0f4a2598fb34ff0a86570a01ff2e",
       "navigationTitle": "Commission Deliveroo",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 55
@@ -257,7 +257,7 @@
       "canonicalPath": "commission-just-eat-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "a58612b6f5b5972983260389e63a75696594313fad7beca1d7dc8d191baa4d9a",
+      "sha256": "b4f3f162e32a32e4bf1b546a56e13236d8a2b8a843c1f9a9daa1207c0ea4cf35",
       "navigationTitle": "Commission Just Eat",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 56
@@ -275,7 +275,7 @@
       "canonicalPath": "commission-uber-eats-rentabilite.html",
       "indexable": true,
       "alias": false,
-      "sha256": "7dc7830713b5c3a26fd6a6c8e88154d16067739a6ca7e095ea82aca980eb003c",
+      "sha256": "678960fce7cad680d989cb646d40ad8c4459fdbc62ec416932aeb43d1f4905bc",
       "navigationTitle": "Commission Uber Eats et rentabilité",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 54
@@ -347,7 +347,7 @@
       "canonicalPath": "cout-salarie-peu-performant-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "56a5d95ab5ebe0b33607506a37766eba82b01dbc452d6b917200ac06370d8815",
+      "sha256": "c7b40206854a5178044c6f580238f8d152f85fa07c1e89830bd4da279edbc5d6",
       "navigationTitle": "Coût du personnel et organisation",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 42
@@ -365,7 +365,7 @@
       "canonicalPath": "dark-kitchen-rentable.html",
       "indexable": true,
       "alias": false,
-      "sha256": "b4d7e1a98b807b45cc182392e1178a595688b433f6725c1973f923420401f17b",
+      "sha256": "19078dcd26f44422b7bc1237580674f0cd7758021ad12f61b6ac40ed3b6465b3",
       "navigationTitle": "Rentabilité d’une dark kitchen",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 58
@@ -401,7 +401,7 @@
       "canonicalPath": "diagnostic-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "a697885655f5ab72c1406e50a2549a6edb34c7c6eb2c7aa9cb8b4c9c432fd170",
+      "sha256": "4f9bf6bd9a317d401aaf3b8b01c8d25800d0957694e66e85c4e16a73dc74415d",
       "navigationTitle": "Diagnostic économique du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 13
@@ -419,7 +419,7 @@
       "canonicalPath": "ebe-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "4c7069aec6620c713322413aa0e31dc5cf2a4379f949a6a5e0deda1eeb5b9f8a",
+      "sha256": "a576e75638ac0190610227a89b6b26cef80090cede6d182777ca5a5009d5c633",
       "navigationTitle": "EBE : excédent brut d’exploitation",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 18
@@ -437,7 +437,7 @@
       "canonicalPath": "ecart-food-cost-theorique-reel.html",
       "indexable": true,
       "alias": false,
-      "sha256": "00c5f4dc03f1932030f923c9b87d3a3bf44cf669f5a14491d96d73bae296f414",
+      "sha256": "26c41f586cb0cddb4c9f21339e58b9b0b4600142dd0ca580159e969061482fb1",
       "navigationTitle": "Écart entre food cost théorique et réel",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 25
@@ -455,7 +455,7 @@
       "canonicalPath": "energie-restaurant-reduire-cout.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e552989d3170a8406ff29f29db3c345c0bdcac6a6b771fbb4da6904f2d08fd2a",
+      "sha256": "4eb9cc926a8b551dbc596701d70e2cdacf6997426a001674718464a782dd8807",
       "navigationTitle": "Coût de l’énergie",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 51
@@ -491,7 +491,7 @@
       "canonicalPath": "exemples-restaurants-modeles.html",
       "indexable": true,
       "alias": false,
-      "sha256": "ab67c9764865d09f9e5d2ccaeb3a63c46fe90030e0e5a62e32e9938b88218caf",
+      "sha256": "eddbd521422cf45f61f968540de00a76a58a5f96f01f1e235fe44322a5529bac",
       "navigationTitle": "Dix établissements modèles chiffrés",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 60
@@ -509,7 +509,7 @@
       "canonicalPath": "facturation-electronique-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "70f97a3c6d9be4ed2540d8338189cca6fc1b3cb13d0890ac892c83c1657d80e4",
+      "sha256": "822dd3279bd56044aaa4713d59a82911de3cf9c5cedf3d18f29430dbfcd7d3f9",
       "navigationTitle": "Facturation électronique",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 52
@@ -545,7 +545,7 @@
       "canonicalPath": "fiche-technique-recette-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "aadf092e3601f8ae452afb9057f2db0cd316fd3ecdfb179b1cfd9b2935b1e6c5",
+      "sha256": "e190f5cf43af744c6d543d61779e2fe59c7f5c34bb036f153774c94077ecf993",
       "navigationTitle": "Fiche technique d’une recette",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 35
@@ -563,7 +563,7 @@
       "canonicalPath": "food-cost-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "33f2ecfcaba7f73fe2133666029779cb90ab560b3012238d8ad5b684babf259c",
+      "sha256": "e77511638483237c62ee84ff3da8fe0a391ef8b0a5183b4331c60a6bff3be41c",
       "navigationTitle": "Food cost et coût matière",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 24
@@ -581,7 +581,7 @@
       "canonicalPath": "gaspillage-alimentaire-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "0cb7078160ea09e9f482441c3e2b8befa19c446b6eaf3999c27d141ff6c56301",
+      "sha256": "a3d81d52cd13dd443611c9e3f37f0b13653d8a38e7fbdefb090ac01803361b26",
       "navigationTitle": "Gaspillage alimentaire",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 30
@@ -599,7 +599,7 @@
       "canonicalPath": "guides.html",
       "indexable": true,
       "alias": false,
-      "sha256": "cbd73fc1bfe8649bfa5bf7ceb03d6a07b43819cf35273797e4b25752ae23b331",
+      "sha256": "03457e3578c9d1bc76fb8adf5be4214a676f1a5b0631eb9cfb7bc1852399481a",
       "navigationTitle": "Tous les guides CHR",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 7
@@ -617,7 +617,7 @@
       "canonicalPath": "heures-supplementaires-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e04f3e7b34591ca1061e6c5d5660e2ab6ebab1f4d3d8a917a89daa1462c5c17f",
+      "sha256": "514096c07b003788c7045494f286a578fbc9d25ee697349c973ca5f57ad3fe50",
       "navigationTitle": "Heures supplémentaires",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 43
@@ -635,7 +635,7 @@
       "canonicalPath": "histoire-restauration.html",
       "indexable": true,
       "alias": false,
-      "sha256": "252935d73e039a0cd160f173bf98c29fb51779fc2d39760464fadc0b96c6341d",
+      "sha256": "bd7d85b946f0e4995fe0a618b9ecad6e5c99200f4dfc09b650b6e1742930142f",
       "navigationTitle": "Histoire de la restauration",
       "navigationGroup": "SEO · Création et reprise",
       "navigationOrder": 92
@@ -653,7 +653,7 @@
       "canonicalPath": "index.html",
       "indexable": true,
       "alias": false,
-      "sha256": "8b510e388889304b6df9d9ecb9738b9b45d9d1496ba1d86394fe87971d9a0420",
+      "sha256": "9bb4400531530f394cb56a62f14740c7cd3efc23bbcb7b7ac6aa31396ebcdb75",
       "navigationTitle": "Accueil",
       "navigationGroup": "Accueil et vente",
       "navigationOrder": 1
@@ -671,7 +671,7 @@
       "canonicalPath": "inventaire-restaurant-methode.html",
       "indexable": true,
       "alias": false,
-      "sha256": "67a76c5b3c512144a394aea4f9cb045d6abc68b00a0f2b96a83b674f58a77b26",
+      "sha256": "15045a379d356d8c347c3c2991324d954a898703a2156cf2d7c048420afb6fbf",
       "navigationTitle": "Méthode et valorisation de l’inventaire",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 47
@@ -689,7 +689,7 @@
       "canonicalPath": "kit-inventaire-gratuit.html",
       "indexable": true,
       "alias": false,
-      "sha256": "607e9400b820e9e2a228790afcf2af11fbc4081620b85353877b11f233282733",
+      "sha256": "fe9e6ea0a3007f105a7c91edf38a490dfcba6b8edbaf5d6c6615f45077995170",
       "navigationTitle": "Inventaire Cuisine et Bar gratuit",
       "navigationGroup": "Accueil et vente",
       "navigationOrder": 6
@@ -707,7 +707,7 @@
       "canonicalPath": "logiciel-pilotage-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "768caf561a14da3b856cf269c71279f92e1e789cdcc8b78b34390daa2e2c3a66",
+      "sha256": "8f93b2a9b26c4f4b49625f85ac7afdf969d02ecbb308245da9aebc2b9f7b402a",
       "navigationTitle": "Logiciel de pilotage pour restaurant",
       "navigationGroup": "Accueil et vente",
       "navigationOrder": 3
@@ -725,7 +725,7 @@
       "canonicalPath": "marge-boissons-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "81235ef6fab14259f882ff89a3217d46c091c7c333b9ddc2ce60a55af2c642b2",
+      "sha256": "63e3a8588c5e653048e80331c78f132068de24ac05baf54ea4be2a8397c208e5",
       "navigationTitle": "Marge et coût des boissons",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 37
@@ -743,7 +743,7 @@
       "canonicalPath": "marge-brute-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "ee41954f2319b94a805e7b1c9df4f21607d55bc00a305f3edbc44b0dc0ec7e15",
+      "sha256": "4d3f96a3439fa5d661bc21cd03be65c4d7fcdadad2f4e085d0229e70ef25c8da",
       "navigationTitle": "Marge brute du restaurant",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 28
@@ -761,7 +761,7 @@
       "canonicalPath": "marge-contribution-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "6bc246946f99377d549284eb12e35d3b475b76040ab47a75e6d06fbf8940f6b9",
+      "sha256": "8ca5bc7712c556ef5601be6f2e36f182d9e8e4fcaf0082485992782f8628f650",
       "navigationTitle": "Marge sur coûts variables et contribution",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 29
@@ -779,7 +779,7 @@
       "canonicalPath": "marge-nette-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "4a924875ae179fe23ae9267f0b67eebc0201fc0178783a40316d46ed08f520e9",
+      "sha256": "f8528ce5747cc63e04e873b1486c571058c831c9d8b24b0712ad7c134ade40c7",
       "navigationTitle": "Marge nette du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 17
@@ -797,7 +797,7 @@
       "canonicalPath": "marge-reelle-apres-commission-livraison.html",
       "indexable": true,
       "alias": false,
-      "sha256": "483379ae0cb74262eed14c25d8e8ae35a2416665b02f70ade22bc9105bda400e",
+      "sha256": "bca17898520e816df6172864475f3935f4e857caf5569261743151490b5889d8",
       "navigationTitle": "Marge réelle après commission de livraison",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 53
@@ -815,7 +815,7 @@
       "canonicalPath": "marge-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "c164ae74b7ec6a8d84a33ce32f331166291e0e1b811637b856d9dcd5af1c4167",
+      "sha256": "2a81e1c71a328b79252480268cbf28d3db089ce6af22c2a6cd9ac03b88e1844e",
       "navigationTitle": "Les marges du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 16
@@ -833,7 +833,7 @@
       "canonicalPath": "masse-salariale-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "5c66bae3d8854a1cb267457d7e0b3cd68200cc936205c056d79d48741b739caa",
+      "sha256": "6fffb53e05fdb52f48b12a9cab8946ed9b4f2adb441f4ed34b5492a6fab38dab",
       "navigationTitle": "Masse salariale et rémunération du gérant",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 39
@@ -869,7 +869,7 @@
       "canonicalPath": "menu-engineering-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "cc113b668f46cde6b748c7041bce071c5eac4e8fede687c7e3778a1e490298f9",
+      "sha256": "4214114d1f387ceb9d5416344621f18ca6bf204a61ef9fa9d12cc3b14bb2b8cc",
       "navigationTitle": "Menu engineering : analyser sa carte",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 31
@@ -905,7 +905,7 @@
       "canonicalPath": "mon-histoire.html",
       "indexable": true,
       "alias": false,
-      "sha256": "633641d0a9c00f306be02e120318b92a7e7d06605af31c64c4555b77e0e02bc1",
+      "sha256": "07c51ad74bdad4b50c3dfe9cbd1c0dfabb6de6305907e9aa75f39470424dfee0",
       "navigationTitle": "Mon histoire : d’Excel à Verdict",
       "navigationGroup": "Verdict et méthode",
       "navigationOrder": 93
@@ -923,7 +923,7 @@
       "canonicalPath": "ouvrir-restaurant-budget.html",
       "indexable": true,
       "alias": false,
-      "sha256": "91fc864ced83165842c8896dcc3d041e669849d30c0a42bee1471b140f8225f8",
+      "sha256": "aee9e7e1312bbff23193f174a1caaff31a94d511689bb2f9774a6e77a4e2b772",
       "navigationTitle": "Budget pour ouvrir un restaurant",
       "navigationGroup": "SEO · Création et reprise",
       "navigationOrder": 89
@@ -941,7 +941,7 @@
       "canonicalPath": "planning-personnel-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "10f9fb5fd5660e6571ddd6e5c3279ab51c5fdc4e2e342e8284691a38a78c72ce",
+      "sha256": "e7508ba903db0401227aa38dbd64b62a17af53fc9159536b03eeda64deea57f5",
       "navigationTitle": "Planning du personnel",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 40
@@ -959,7 +959,7 @@
       "canonicalPath": "pourquoi-les-restaurants-ferment.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e0ae525d726b3169ff65d6fad8c1eb198e0e5349eafd6db8bc508f6365bf2563",
+      "sha256": "77850e42167a98ba8fd7447a70908d9eae6c0e3d09f9a61b60598ead45807cc4",
       "navigationTitle": "Pourquoi les restaurants ferment",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 22
@@ -977,7 +977,7 @@
       "canonicalPath": "previsionnel-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "355d7748670bce27c05b935336aa43ed372c38415ff9f02ef5f8c23198cbdf9f",
+      "sha256": "0d8a540a54535175cc0b162c6415c6bf5d21faa24fbeb4318c9a224f1226c85a",
       "navigationTitle": "Prévisionnel et business plan",
       "navigationGroup": "SEO · Création et reprise",
       "navigationOrder": 90
@@ -995,7 +995,7 @@
       "canonicalPath": "prime-cost-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "d54bddc7f4fdc89dfc835460ca045a80045b8b75cb75f615e1aa6f59e7aba8bd",
+      "sha256": "c5518eb8ca8131762744c328cf94631132df29931fb6d728e5203446b6f13234",
       "navigationTitle": "Prime cost : matière et personnel",
       "navigationGroup": "SEO · Matière et marges",
       "navigationOrder": 27
@@ -1013,7 +1013,7 @@
       "canonicalPath": "prix-achat-fournisseur-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "1998a84a607b149cf59ef699b417155a4be74e764e0dc84bd427762b4e7e8052",
+      "sha256": "6ef039a65b42d23af3267dcd2c5dafc4a55bdc34b8590738e7b8138f19356d55",
       "navigationTitle": "Comparer les prix d’achat fournisseurs",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 50
@@ -1031,7 +1031,7 @@
       "canonicalPath": "prix-vente-plat-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "f4de8fb3eb7145bca67c226b8acfcb6725afbb29af3815b3b7e5b5eb6e6d5ea4",
+      "sha256": "da8d5b4983bad39da268a47017b2462aa1173e42d5815611e2c172b07a5a2174",
       "navigationTitle": "Fixer le prix de vente d’un plat",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 32
@@ -1049,7 +1049,7 @@
       "canonicalPath": "productivite-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "2502783e0bd1ce44ac6236010ea5276e0a5732d76f108d90152ab5160d73cc86",
+      "sha256": "a700870006ad43faae0b0136cfc84e144704f6824b6660f075ae02c29814a94f",
       "navigationTitle": "Productivité des services",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 41
@@ -1067,7 +1067,7 @@
       "canonicalPath": "quel-ca-pour-vivre-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "13a4b5e3eff59906ad153848ae6a95414c9e47b9367e35ae11dddb2521657df6",
+      "sha256": "f4329879551851add67849f418f21d51631dff4e6bd3b30519b6cbc813a88afc",
       "navigationTitle": "Quel CA pour vivre de son restaurant ?",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 14
@@ -1085,7 +1085,7 @@
       "canonicalPath": "rentabilite-bar-tapas.html",
       "indexable": true,
       "alias": false,
-      "sha256": "5d0d18d90be12950c119070aadcf25cb5f46807b71250a37883e3d2070ab6b17",
+      "sha256": "9e714134a5480636cd444f0d43b5302e0427bede9da8e1555b44da8a41b54dd2",
       "navigationTitle": "Bar à tapas",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 72
@@ -1103,7 +1103,7 @@
       "canonicalPath": "rentabilite-bar.html",
       "indexable": true,
       "alias": false,
-      "sha256": "2d219cda3d261f92057eaeb0a1c007e68f992c9e531b69283f4a284168649be2",
+      "sha256": "282f788f6f184e80412bd7d8313ab502abdf2debfac11549fb2b298a20325bd9",
       "navigationTitle": "Bar",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 67
@@ -1121,7 +1121,7 @@
       "canonicalPath": "rentabilite-bistrot.html",
       "indexable": true,
       "alias": false,
-      "sha256": "9eebd9a192bab880cdc58803cf0810cd07ac7376bc25cedc826f713098b302ba",
+      "sha256": "b19ad5001057e3152c7617d1cfc25e7f9968dbb0a98d0809d03a2b30b8f92081",
       "navigationTitle": "Bistrot",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 63
@@ -1139,7 +1139,7 @@
       "canonicalPath": "rentabilite-boulangerie.html",
       "indexable": true,
       "alias": false,
-      "sha256": "9038424eacd97126085c06cdac44588345761b8d61ba2d92e7074c24acf44b79",
+      "sha256": "856773bf3d11f446ffc196c0cfd833e352b12f3a63b3c43c1b49b9a231cbcac5",
       "navigationTitle": "Boulangerie",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 65
@@ -1157,7 +1157,7 @@
       "canonicalPath": "rentabilite-brasserie.html",
       "indexable": true,
       "alias": false,
-      "sha256": "246d95d0672979ebef68fc5b1a035cd977d25091109ba607b0920be8859ab048",
+      "sha256": "ec6642ce5446856090c6f9de6150df585f7f626ed7e0e779a740a2daea9bd79a",
       "navigationTitle": "Brasserie",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 62
@@ -1175,7 +1175,7 @@
       "canonicalPath": "rentabilite-cantine.html",
       "indexable": true,
       "alias": false,
-      "sha256": "73da9393042f033a8360f2a29061ea5cd0b214193afc6ff30553d206f91e422b",
+      "sha256": "a64cd7fb9d4bea6f61898189cbb989042ebd771e98c17d9a7313359bd38c529c",
       "navigationTitle": "Cantine",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 78
@@ -1193,7 +1193,7 @@
       "canonicalPath": "rentabilite-carte-courte-vs-carte-longue.html",
       "indexable": true,
       "alias": false,
-      "sha256": "5266d6584a5251951df2688f0e30714a8b0223d58bf6bf5bf8e714ec722ff50a",
+      "sha256": "b1c9e0a6a81b5967752aa7c8dedef5e9a42b4a6f5c5a35716ba23580ab407bec",
       "navigationTitle": "Carte courte ou carte longue",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 36
@@ -1211,7 +1211,7 @@
       "canonicalPath": "rentabilite-cocktail.html",
       "indexable": true,
       "alias": false,
-      "sha256": "54473a2b8f8d9cf61b9edca36ae186e1973d544615c7e8065a82b1b83a92cda8",
+      "sha256": "391af89562ee4e65d870a7a5d258d24d158f58f50bf416f969fda4bde24dc0f0",
       "navigationTitle": "Rentabilité d’un cocktail",
       "navigationGroup": "SEO · Carte et prix",
       "navigationOrder": 38
@@ -1229,7 +1229,7 @@
       "canonicalPath": "rentabilite-coffee-shop.html",
       "indexable": true,
       "alias": false,
-      "sha256": "d1fd0678f2877693b504f729bc90bf79958b5812949633efa220a815e0263a1a",
+      "sha256": "83c4474272b7f22bff0fa5e1e8f671bad8516306a302fb3f931412f586968b24",
       "navigationTitle": "Coffee shop",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 73
@@ -1247,7 +1247,7 @@
       "canonicalPath": "rentabilite-creperie.html",
       "indexable": true,
       "alias": false,
-      "sha256": "a34aa2e32b35423a03170db32aced0bcdb1d0554a182b79e86e47bcf1d39ba81",
+      "sha256": "cfad95faa9aee36e8e485f0c5bc033f4fda72faee79fb5f42a9645e75d233659",
       "navigationTitle": "Crêperie",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 77
@@ -1265,7 +1265,7 @@
       "canonicalPath": "rentabilite-food-truck.html",
       "indexable": true,
       "alias": false,
-      "sha256": "681eaf49b843198b49c09509a8af51485991c000996bd630ef032ba3e78b38ba",
+      "sha256": "bc60d43df4a42cba542786e463de7f5b7685dd98814f223e0fd3b346ee2899c9",
       "navigationTitle": "Food truck",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 71
@@ -1283,7 +1283,7 @@
       "canonicalPath": "rentabilite-franchise-restauration.html",
       "indexable": true,
       "alias": false,
-      "sha256": "f3a31dc6e236870576fc915f5650c243bd8fe8589c33c013ceac461effd2cb3b",
+      "sha256": "de15acb15d085689886efb1b3b414b3930dbe13d428b062ef2ea95e58be86de2",
       "navigationTitle": "Franchise de restauration",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 81
@@ -1301,7 +1301,7 @@
       "canonicalPath": "rentabilite-glacier.html",
       "indexable": true,
       "alias": false,
-      "sha256": "5f7af1973a4da32af2a9d2d090b8abbb55bb00dc406d585bbeeb1eae8ca6ccf3",
+      "sha256": "11e226453e695690e49c0edb7219ad9f2c7d830fba1774482c0d39a0f256681f",
       "navigationTitle": "Glacier",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 82
@@ -1319,7 +1319,7 @@
       "canonicalPath": "rentabilite-guinguette.html",
       "indexable": true,
       "alias": false,
-      "sha256": "b85346714abfecd0048a9e4d7d4f38031267d96b38118c1b749807ea8da0d51b",
+      "sha256": "c14c649727e5fbd6e99b46628e0d14c2c49e518fc6959f07c8b814260271c565",
       "navigationTitle": "Guinguette",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 79
@@ -1337,7 +1337,7 @@
       "canonicalPath": "rentabilite-hotel-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "25b310552fc8312870aa423235aacddd701509066ec013d04b16f82b91524681",
+      "sha256": "cec51364919e7d98b392405b4076d7b564cabfd1795ea84dcef5cb1a5e642932",
       "navigationTitle": "Hôtel-restaurant",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 68
@@ -1355,7 +1355,7 @@
       "canonicalPath": "rentabilite-kebab.html",
       "indexable": true,
       "alias": false,
-      "sha256": "1d53c1671c71c7a35cfc00d3e9a387da754811ba19c161ce592097cdca006995",
+      "sha256": "d278496810eca73855b8e3901e936371ad524915caeea9388cd1e11baa373098",
       "navigationTitle": "Kebab",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 66
@@ -1373,7 +1373,7 @@
       "canonicalPath": "rentabilite-par-type-de-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "ccafbe13b1d83b6d7646ac5b76e177a90cab03bd13fc28f3abb435146650df94",
+      "sha256": "6b12512c3e6a2c12663a39bc2535961d8579bb44a9702c34e13fc9805a4614ff",
       "navigationTitle": "Rentabilité par type d’établissement",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 59
@@ -1391,7 +1391,7 @@
       "canonicalPath": "rentabilite-pizzeria.html",
       "indexable": true,
       "alias": false,
-      "sha256": "5428f39d4f313f420620009dfb1dba2e353d2dfac5095b61f5978ade3f07e089",
+      "sha256": "4a6fa9fa3032679aea7de8c6da1d264ef9f0ea44a2f0b562dde346e40288cb4c",
       "navigationTitle": "Pizzeria",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 61
@@ -1409,7 +1409,7 @@
       "canonicalPath": "rentabilite-pub.html",
       "indexable": true,
       "alias": false,
-      "sha256": "aff2bfc4603bddc5616bb9bd0d303a505480c2e59f04819d08c911134f3e2bd7",
+      "sha256": "5dad78bb76f7ee925da47a2da9f97dc6d43eca6f56d383bb9ccf05a98a0b3a57",
       "navigationTitle": "Pub",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 83
@@ -1427,7 +1427,7 @@
       "canonicalPath": "rentabilite-restaurant-asiatique.html",
       "indexable": true,
       "alias": false,
-      "sha256": "15ec123749f2e730fe545a68f0f25dcfd26caa1571bb7a4b944c97c93df3b777",
+      "sha256": "33e677540a6ba0b8c029145c876668431c0bcce70049d92fe0a004cef5a8dcba",
       "navigationTitle": "Restaurant asiatique",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 75
@@ -1445,7 +1445,7 @@
       "canonicalPath": "rentabilite-restaurant-burger.html",
       "indexable": true,
       "alias": false,
-      "sha256": "110184752fdd2ed9cf5001111dea4ae2fa1843d193a80e41239ad2094b800fcf",
+      "sha256": "9718f8461267f285ac9e7f645953715fa77d0f04da502ef38fc1e2b6b31d9c69",
       "navigationTitle": "Restaurant de burgers",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 76
@@ -1463,7 +1463,7 @@
       "canonicalPath": "rentabilite-restaurant-gastronomique.html",
       "indexable": true,
       "alias": false,
-      "sha256": "338fe8c7b4610edff52bcc12135f75406194a97f51d176a52659057074c896c2",
+      "sha256": "7edb0709bd0ff2a5c40d662fd8517720212f97896a803f8b89b89c8fe44bf233",
       "navigationTitle": "Restaurant gastronomique",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 64
@@ -1481,7 +1481,7 @@
       "canonicalPath": "rentabilite-restaurant-italien.html",
       "indexable": true,
       "alias": false,
-      "sha256": "a2182737c93970a2631c771d50ef430569a52b9881cceaabb14b6ede1651e4f3",
+      "sha256": "8a71d874b78b4a18e816b81ec6a79c37ecc6ce13ba334726849627d368b69622",
       "navigationTitle": "Restaurant italien",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 74
@@ -1499,7 +1499,7 @@
       "canonicalPath": "rentabilite-restaurant-mexicain.html",
       "indexable": true,
       "alias": false,
-      "sha256": "ba468349c7a7f47242cfa1d552741b551c34c429a9dca631962ee83e1b936d9e",
+      "sha256": "da835be9aa5f96e1974e020124118f31bd4a3056e486cf7035d6a500e7fc9c05",
       "navigationTitle": "Restaurant mexicain",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 84
@@ -1517,7 +1517,7 @@
       "canonicalPath": "rentabilite-restaurant-poisson.html",
       "indexable": true,
       "alias": false,
-      "sha256": "6334aab64b492daf9fbae53d58487a37f68ade886c2c62a5900912de9e835b1f",
+      "sha256": "a90c7d62bedd1a4cde29cb4f918ecd04869b50f54649786e97fed77bb6d01309",
       "navigationTitle": "Restaurant de poissons",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 80
@@ -1535,7 +1535,7 @@
       "canonicalPath": "rentabilite-restaurant-saisonnier.html",
       "indexable": true,
       "alias": false,
-      "sha256": "cfc7daf21bf828afe84f930a495eed37151b2ad172315eea34294b281a7742e1",
+      "sha256": "8dd2d8600410f3d5f177d813f75eaf7ccab3250f21b34038cdde80e7f82f4526",
       "navigationTitle": "Restaurant saisonnier",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 69
@@ -1553,7 +1553,7 @@
       "canonicalPath": "rentabilite-restaurant-vegetarien.html",
       "indexable": true,
       "alias": false,
-      "sha256": "aeed37e0b26a63fa1bd77af53193a6420b2c72944cdc0fd0c8db88720eb7c9f3",
+      "sha256": "17410f08cc1c17dd8fa3474fcf4086e12a801340413f41ed66fc7b70a1786810",
       "navigationTitle": "Restaurant végétarien",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 85
@@ -1571,7 +1571,7 @@
       "canonicalPath": "rentabilite-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "fc241706124fcc02abd44ee8e657842b9cfd0cb20616bcbca197c6d3fc1960bc",
+      "sha256": "f4c01a295ceaa92916b327af2185b706a7064daff2c2747cdb9426ee219b3ab1",
       "navigationTitle": "Rentabilité du restaurant",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 8
@@ -1589,7 +1589,7 @@
       "canonicalPath": "rentabilite-salon-de-the.html",
       "indexable": true,
       "alias": false,
-      "sha256": "c5461e8baea595499cc8207fbb42e306441acef0eb61b37d686995600bf54c64",
+      "sha256": "3ca605929b82b2b487637163517d3fc7a15ac8bf947e94d434535603f50eec51",
       "navigationTitle": "Salon de thé",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 86
@@ -1607,7 +1607,7 @@
       "canonicalPath": "rentabilite-snack.html",
       "indexable": true,
       "alias": false,
-      "sha256": "0ff28601af5e74fcbd1a25f9faea342814863d2d837b50e0ed46b715de570b2e",
+      "sha256": "6565e668ed8f6f194bc24fd24a0b926d10114a85764025c99771748ce1032aa6",
       "navigationTitle": "Snack",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 87
@@ -1625,7 +1625,7 @@
       "canonicalPath": "rentabilite-sushi.html",
       "indexable": true,
       "alias": false,
-      "sha256": "c2ef078a4aff39567d3d1cc9124e8575c34f7334baaff385c83c0ed53f813380",
+      "sha256": "4629abbc78ff03f6441c75dfa8ae8313df5ac8ffc6ee9ab5b427d8a554978529",
       "navigationTitle": "Restaurant de sushis",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 88
@@ -1643,7 +1643,7 @@
       "canonicalPath": "rentabilite-traiteur.html",
       "indexable": true,
       "alias": false,
-      "sha256": "22060bb8cfae6e86cf475d39bd00cdeadafa6d06b7764409e44e64c022fb0483",
+      "sha256": "14f83b7ece5ee0f380b746dcbd270d6bbac3ef5b92b58e06effad7aa5bf75582",
       "navigationTitle": "Traiteur",
       "navigationGroup": "SEO · Types d’établissement",
       "navigationOrder": 70
@@ -1661,7 +1661,7 @@
       "canonicalPath": "rentabilite-vente-emporter.html",
       "indexable": true,
       "alias": false,
-      "sha256": "c6b0b5ec0c24bb28e92f879e92003bb6bb7d2248dc49d01d2f745cb4d6939eca",
+      "sha256": "a1040a21ede9f00c6e1249dabc27da5c6a599ba4f656884cd6962862acdb5abf",
       "navigationTitle": "Rentabilité de la vente à emporter",
       "navigationGroup": "SEO · Livraison",
       "navigationOrder": 57
@@ -1679,7 +1679,7 @@
       "canonicalPath": "reprendre-restaurant-rentable.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e31d65259860af0b59779e7af2b2fa36d59031770f7a03529b4e4d5251bacb5f",
+      "sha256": "6f6f6a47774043924aa8d77103b6c4c2f00f97e5aa84562fbab95ee57a703e5f",
       "navigationTitle": "Reprendre un restaurant",
       "navigationGroup": "SEO · Création et reprise",
       "navigationOrder": 91
@@ -1697,7 +1697,7 @@
       "canonicalPath": "restaurant-deficit-que-faire.html",
       "indexable": true,
       "alias": false,
-      "sha256": "503426417cf5982dfc0f18806f609ff2564f7e08904c74f9c76c8d04646532b6",
+      "sha256": "d81959d8928d4df51f3e37c4c39d7f6bed7d09cc2f501e81a876973c1f067d38",
       "navigationTitle": "Restaurant en déficit : que faire ?",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 12
@@ -1715,7 +1715,7 @@
       "canonicalPath": "restaurant-pas-rentable.html",
       "indexable": true,
       "alias": false,
-      "sha256": "2afb8f8cf9ae535cd597bf0b32424591e653a2d3ce0f6db6cd5a5b2544b28302",
+      "sha256": "6297df3df775d7fcab5070d37fb0f3e7ee1e6c35c7f1e8575dbabe2203dc22e6",
       "navigationTitle": "Restaurant plein mais pas rentable",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 11
@@ -1769,7 +1769,7 @@
       "canonicalPath": "rotation-tables-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e5e819eb20e690b041b8ec9d0c3448ec2e78eb8cadf374a0c063fc5e5ac4c039",
+      "sha256": "c9790998a0ea85795e90fbafdeda360e24da30194f06df8f41dea06f62c72379",
       "navigationTitle": "Rotation des tables et taux de remplissage",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 46
@@ -1787,7 +1787,7 @@
       "canonicalPath": "seuil-rentabilite-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "e8c3041a15f6d3f46c97864dc9f2982d9ce2e64074697bb68735595fe146d85b",
+      "sha256": "2e2e9f9154a035d39de85ba2a9e4a4f844f68121a1ff51e0163addfd2ea7bced",
       "navigationTitle": "Point mort et seuil de rentabilité",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 9
@@ -1841,7 +1841,7 @@
       "canonicalPath": "tableau-bord-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "a14b8e38140d1bbe4a0dab982b5a622e81b7c890264907880020fd770d39458f",
+      "sha256": "055605294d807afb2626cd7d8a794a0610ffabc49cd3ff128e7c24fb0b87a281",
       "navigationTitle": "Tableau de bord et indicateurs CHR",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 21
@@ -1877,7 +1877,7 @@
       "canonicalPath": "taux-rotation-stock-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "704e8d68f200ab93471f5eb57d9df0c164ca8081f45d67132ff3582ff829bc02",
+      "sha256": "9cc6c7633a73b8f790a29a55e9961c4f65443a560489ee0a43f9845fdf4d206a",
       "navigationTitle": "Taux de rotation des stocks",
       "navigationGroup": "SEO · Stocks et achats",
       "navigationOrder": 48
@@ -1895,7 +1895,7 @@
       "canonicalPath": "ticket-moyen-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "bc3af866e65e5d3c902eccc520f12d8cba47c3cd8385521ffd646ab2f7378fa0",
+      "sha256": "0b825a7186ed1a83042f722c2a11d39a9c08a9e3e7219fb72f812a224f8062a5",
       "navigationTitle": "Ticket moyen",
       "navigationGroup": "SEO · Équipe et salle",
       "navigationOrder": 44
@@ -1913,7 +1913,7 @@
       "canonicalPath": "tresorerie-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "6ffef15295a6e317a7e5ede9c3b4ad30c5dab0737f878332754323319af7489f",
+      "sha256": "ea70fb72cc40cc5c07115c51f0e2131fc0f0d5b0ea1a0b92085fec0701d09498",
       "navigationTitle": "Trésorerie et besoin en fonds de roulement",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 23
@@ -1949,7 +1949,7 @@
       "canonicalPath": "verdict-methode.html",
       "indexable": true,
       "alias": false,
-      "sha256": "ba24c4fadd8f767aef3670668592135f5cbac72ea64997f7e49de80598bb0366",
+      "sha256": "48f085954a6e8881a4ce832981eca9f155916ccc0f4891d0d8d073932582a6ad",
       "navigationTitle": "Méthode de calcul Verdict",
       "navigationGroup": "Verdict et méthode",
       "navigationOrder": 95
@@ -1967,7 +1967,7 @@
       "canonicalPath": "verdict-pro.html",
       "indexable": true,
       "alias": false,
-      "sha256": "6a3d4c1ca066b68ed665d40370ef9f1becda4cd32a55661d9188fae3196b276a",
+      "sha256": "2eecfa5ca0ccad679d459cfccf8f1a51b95c68190b68e1fd1f84a326d446f549",
       "navigationTitle": "Présentation et page de vente",
       "navigationGroup": "Accueil et vente",
       "navigationOrder": 2

@@ -1,0 +1,428 @@
+{
+  "schema": "verdict-topic-captures/v1",
+  "frozen": true,
+  "captureDateLocal": "2026-10-30",
+  "source": {
+    "edition": "Verdict Client — Publication 4",
+    "commit": "9585d43d23b3a150e3122370c56bf0b40882cdda",
+    "context": "Démonstration fictive native Brasserie Collet. Données illustratives ; aucun compte ou document client réel.",
+    "theme": "light",
+    "locale": "fr-FR",
+    "timezone": "Europe/Paris"
+  },
+  "method": "Captures natives du navigateur, navigation et défilement de l’application ; aucune modification des pixels, du DOM, des styles ou des données.",
+  "screens": [
+    {
+      "id": "finances-pilotage-jour",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-pilotage-jour.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "28df6a5abcdef10f8c3dd9e81f86da49afa01e13002ad2837115890e66038a6b",
+          "capturedAt": "2026-10-29T23:02:39.493Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-pilotage-jour-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "69cbfecadc326e84d327d7c02c6e4d44e12b97cf9ae41d453b09af05573c41c1",
+          "capturedAt": "2026-10-29T23:06:26.487Z"
+        }
+      },
+      "caption": "Pilotage du jour dans la démonstration fictive Brasserie Collet : objectif journalier et saisie du chiffre d’affaires.",
+      "alt": "Pilotage du jour dans la démonstration fictive Brasserie Collet : objectif journalier et saisie du chiffre d’affaires.",
+      "visibleMarkers": {
+        "desktop": [
+          "Minimum à faire aujourd’hui : 507 €",
+          "CA TTC de ma journée",
+          "Enregistrer ma journée"
+        ],
+        "mobile": [
+          "Minimum à faire aujourd’hui : 507 €",
+          "CA TTC de ma journée",
+          "Enregistrer ma journée"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-pilotage-mois",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-pilotage-mois.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "94cdf4027c3602fb6efdf10bb88a52553c302aa432946a836d75bb92ebac817a",
+          "capturedAt": "2026-10-29T23:02:40.922Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-pilotage-mois-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "7271a0c6807c2aabfc88731da9545d13a00a950f326c466f27e0144637f12093",
+          "capturedAt": "2026-10-29T23:06:28.548Z"
+        }
+      },
+      "caption": "Pilotage du mois dans la démonstration fictive Brasserie Collet : activité enregistrée et écart au minimum du mois.",
+      "alt": "Pilotage du mois dans la démonstration fictive Brasserie Collet : activité enregistrée et écart au minimum du mois.",
+      "visibleMarkers": {
+        "desktop": [
+          "VOS MOIS · 2026",
+          "107,9 %",
+          "53 946 € encaissés pour 50 018 € attendus à cette date"
+        ],
+        "mobile": [
+          "VOS MOIS · 2026",
+          "107,9 %",
+          "53 946 € encaissés pour 50 018 € attendus à cette date"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-pilotage-annee",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-pilotage-annee.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "f25bd72c3dffff0b2d848b0b057d21ade6eb90f6c5a030496a548954cfb2cb52",
+          "capturedAt": "2026-10-29T23:02:41.819Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-pilotage-annee-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "7ad485e6b550c69a9aba5b90b0fc4a3fadebcfc3947f96e418715925adbc8f1d",
+          "capturedAt": "2026-10-29T23:06:29.856Z"
+        }
+      },
+      "caption": "Pilotage annuel dans la démonstration fictive Brasserie Collet ; les données servent à illustrer la lecture de l’exercice.",
+      "alt": "Pilotage annuel dans la démonstration fictive Brasserie Collet ; les données servent à illustrer la lecture de l’exercice.",
+      "visibleMarkers": {
+        "desktop": [
+          "110,5 %",
+          "Année 2026 (en cours)",
+          "593 018 € encaissés pour 536 598 € attendus à cette date"
+        ],
+        "mobile": [
+          "110,5 %",
+          "Année 2026 (en cours)",
+          "593 018 € encaissés pour 536 598 € attendus à cette date"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-structure-charges",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-structure-charges.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "13403bea95f900a21cc2d429f036ddcbc59937bf059d2aaa533c5a586a254fc9",
+          "capturedAt": "2026-10-29T23:02:43.327Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-structure-charges-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "5cf068d9028b713f88c82e633c0644e84b8b6f6ac60b30566f37f0745d7485d9",
+          "capturedAt": "2026-10-29T23:06:31.819Z"
+        }
+      },
+      "caption": "Structure économique dans la démonstration fictive Brasserie Collet : résultat avant impôt, coûts de l’équipe et autres charges.",
+      "alt": "Structure économique dans la démonstration fictive Brasserie Collet : résultat avant impôt, coûts de l’équipe et autres charges.",
+      "visibleMarkers": {
+        "desktop": [
+          "Résultat avant impôt : 6,7 %",
+          "Coût de l’équipe : 39,7 %",
+          "Autres charges fixes : 21,4 %"
+        ],
+        "mobile": [
+          "Résultat avant impôt : 6,7 %",
+          "Coût de l’équipe : 39,7 %",
+          "Autres charges fixes : 21,4 %"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-seuil-rentabilite",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-seuil-rentabilite.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "864cea7836b5eed615653968d9f62813e7715c1a3534bd5a6ce40df45820c53a",
+          "capturedAt": "2026-10-29T23:02:44.820Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-seuil-rentabilite-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "0c09fbeccf3e765833a15d701c5dfbaf529197ad65396f9349c55f69dfa15574",
+          "capturedAt": "2026-10-29T23:06:33.796Z"
+        }
+      },
+      "caption": "Couverture du minimum du mois dans la démonstration fictive Brasserie Collet : CA TTC et date de couverture estimée au rythme enregistré.",
+      "alt": "Couverture du minimum du mois dans la démonstration fictive Brasserie Collet : CA TTC et date de couverture estimée au rythme enregistré.",
+      "visibleMarkers": {
+        "desktop": [
+          "Couverture estimée le 30 octobre",
+          "Minimum à couvrir : 55 047 €",
+          "Déjà enregistré : 53 946 €",
+          "Reste à couvrir : 1 100 €"
+        ],
+        "mobile": [
+          "Couverture estimée le 30 octobre",
+          "Minimum à couvrir : 55 047 €",
+          "Déjà enregistré : 53 946 €",
+          "Reste à couvrir : 1 100 €"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-test-resistance",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-test-resistance.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "cd610573560cf57e62825988a2825a2f0906676046360d49d9c311bb914b325a",
+          "capturedAt": "2026-10-29T23:02:46.275Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-test-resistance-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "b7090fedaa1e838324959b1c15d218418f04a8dc2bba88329165abec1c84e83b",
+          "capturedAt": "2026-10-29T23:06:35.694Z"
+        }
+      },
+      "caption": "Test de résistance dans la démonstration fictive Brasserie Collet : effet de variations d’activité sur la structure.",
+      "alt": "Test de résistance dans la démonstration fictive Brasserie Collet : effet de variations d’activité sur la structure.",
+      "visibleMarkers": {
+        "desktop": [
+          "Deux chocs sur cinq vous font passer en perte.",
+          "Matière +20 %",
+          "Volume −20 % : −45 341 €"
+        ],
+        "mobile": [
+          "Deux chocs sur cinq vous font passer en perte.",
+          "Matière +20 %",
+          "Volume −20 % : −45 341 €"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-saisonnalite",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-saisonnalite.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "beb25f4f6eda2c56d8b4c8acbff9341fecff8547bb90e1d336daa8ff1cd5ee3e",
+          "capturedAt": "2026-10-29T23:02:47.699Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-saisonnalite-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "e293a3cdb42d2a3d5d4c9ed37eac736b3732a47256d8b0fef909e655a1c23999",
+          "capturedAt": "2026-10-29T23:06:37.566Z"
+        }
+      },
+      "caption": "Saisonnalité dans la démonstration fictive Brasserie Collet : mois actifs et résultat annuel du modèle.",
+      "alt": "Saisonnalité dans la démonstration fictive Brasserie Collet : mois actifs et résultat annuel du modèle.",
+      "visibleMarkers": {
+        "desktop": [
+          "Vous pouvez perdre un mois actif, pas deux.",
+          "Mois actifs nécessaires : 10,84",
+          "Résultat annuel : 42 692 €"
+        ],
+        "mobile": [
+          "Vous pouvez perdre un mois actif, pas deux.",
+          "Mois actifs nécessaires : 10,84",
+          "Résultat annuel : 42 692 €"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-simulation",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-simulation.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "85a72bdf73f3d78059614a4b0bb328179276a545a247009729158459f5ea4ad6",
+          "capturedAt": "2026-10-29T23:04:05.434Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-simulation-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "a350d329eada50a92e2dfdc234f706761fbbeee2dc8de4d94821e2a0756a5a5a",
+          "capturedAt": "2026-10-29T23:06:39.476Z"
+        }
+      },
+      "caption": "Simuler dans la démonstration fictive Brasserie Collet : situation annuelle et effets mécaniques de plusieurs hypothèses ; aucun gain garanti.",
+      "alt": "Simuler dans la démonstration fictive Brasserie Collet : situation annuelle et effets mécaniques de plusieurs hypothèses ; aucun gain garanti.",
+      "visibleMarkers": {
+        "desktop": [
+          "Résultat sur un an : 42 692 €",
+          "+1 197 € par mois (+14 364 € par an)",
+          "Équipe : 650 € de moins par mois"
+        ],
+        "mobile": [
+          "Résultat sur un an : 42 692 €",
+          "+1 197 € par mois (+14 364 € par an)",
+          "Équipe : 650 € de moins par mois"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-equipe-services",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-equipe-services.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "61d1622cc27c54ab06379157be83cd93d05539f76a29af4e4a29caa0a2ac3814",
+          "capturedAt": "2026-10-29T23:04:07.086Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-equipe-services-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "a6f37c92b8449fb3d90319f1b1053a0f58f961743fb0ee7d39133c38219e70e2",
+          "capturedAt": "2026-10-29T23:09:32.403Z"
+        }
+      },
+      "caption": "Équipe et services dans la démonstration fictive Brasserie Collet : comparer le CA et les heures des services, avec une fiabilité illustrative.",
+      "alt": "Équipe et services dans la démonstration fictive Brasserie Collet : comparer le CA et les heures des services, avec une fiabilité illustrative.",
+      "visibleMarkers": {
+        "desktop": [
+          "Quels services paient réellement l’équipe ?",
+          "Fiabilité de cette lecture : Illustrative",
+          "samedi · Midi laisse +40 € par heure équipe"
+        ],
+        "mobile": [
+          "Comparaison sur vos propres services",
+          "samedi · Midi : +40 €/h",
+          "vendredi · Midi : +31 €/h",
+          "104 services comparés"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-tresorerie",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-tresorerie.png",
+          "width": 1440,
+          "height": 1400,
+          "sha256": "f7773b62f85cf8b03eb1763ac11b6726ca7b6870be07d5c42ed3eb77d1bbb964",
+          "capturedAt": "2026-10-29T23:07:11.874Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-tresorerie-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "6b1a10e7444f0c0dd3e3062f78acc6fcdd92e7369022177266166d14f9df34df",
+          "capturedAt": "2026-10-29T23:06:44.947Z"
+        }
+      },
+      "caption": "Trésorerie sur treize semaines dans la démonstration fictive Brasserie Collet : projection du solde et hypothèses ; aucune connexion bancaire réelle.",
+      "alt": "Trésorerie sur treize semaines dans la démonstration fictive Brasserie Collet : projection du solde et hypothèses ; aucune connexion bancaire réelle.",
+      "visibleMarkers": {
+        "desktop": [
+          "Votre compte en banque, les 3 prochains mois",
+          "Moment le plus serré : environ 42 436 €",
+          "S1 · 30 oct. → 5 nov.",
+          "S13 · 22 janv. → 28 janv. : 49 562 €"
+        ],
+        "mobile": [
+          "Votre compte en banque, les 3 prochains mois",
+          "Moment le plus serré : environ 42 436 €",
+          "S1 · 30 oct. → 5 nov."
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-import-fec",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-import-fec.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "89bbc5da086e7605ba4de4f14c939ef0687005cc844ecb17099835cc0f41ff83",
+          "capturedAt": "2026-10-29T23:04:11.794Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-import-fec-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "a5e3b08f92b058abb1c1b130227d9b491be3afd2c3e6937f7d0853764094269a",
+          "capturedAt": "2026-10-29T23:06:46.976Z"
+        }
+      },
+      "caption": "Entrée du document comptable FEC dans la démonstration fictive Brasserie Collet : analyse locale annoncée et contrôle des classements ; aucun document réel importé.",
+      "alt": "Entrée du document comptable FEC dans la démonstration fictive Brasserie Collet : analyse locale annoncée et contrôle des classements ; aucun document réel importé.",
+      "visibleMarkers": {
+        "desktop": [
+          "Déposez votre document comptable",
+          "Document · Contrôle · Verdict",
+          "Choisir mon FEC"
+        ],
+        "mobile": [
+          "Déposez votre document comptable",
+          "Document · Contrôle · Verdict",
+          "Choisir mon FEC"
+        ]
+      },
+      "publicationAllowed": true
+    },
+    {
+      "id": "finances-charges-fixes",
+      "images": {
+        "desktop": {
+          "path": "assets/sales/topics/finances-charges-fixes.png",
+          "width": 1440,
+          "height": 1000,
+          "sha256": "42af2a0e39cf1f759e128e6c4b2e25edb309258de8471a4d08dac51ac8c8e3f5",
+          "capturedAt": "2026-10-29T23:04:12.571Z"
+        },
+        "mobile": {
+          "path": "assets/sales/topics/finances-charges-fixes-mobile.png",
+          "width": 390,
+          "height": 844,
+          "sha256": "bbaffed070489785a40bd79032a8b60f5981bed5d7018e27b9a26776ab407d60",
+          "capturedAt": "2026-10-29T23:06:48.195Z"
+        }
+      },
+      "caption": "Charges fixes dans la démonstration fictive Brasserie Collet : loyer, énergie et autres charges, séparés des salaires et des achats variables.",
+      "alt": "Charges fixes dans la démonstration fictive Brasserie Collet : loyer, énergie et autres charges, séparés des salaires et des achats variables.",
+      "visibleMarkers": {
+        "desktop": [
+          "Charges fixes mensuelles (hors salaires)",
+          "Électricité, eau, gaz : 1914",
+          "Total fixes / mois (hors salaires) : 11 378 €"
+        ],
+        "mobile": [
+          "Charges fixes mensuelles (hors salaires)",
+          "Électricité, eau, gaz : 1914",
+          "Total fixes / mois (hors salaires) : 11 378 €"
+        ]
+      },
+      "publicationAllowed": true
+    }
+  ]
+}

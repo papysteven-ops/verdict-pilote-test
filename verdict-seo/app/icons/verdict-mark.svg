@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Verdict — icône application noire</title>
+  <desc id="desc">Géométrie du logo officiel Verdict, rendue en noir sur fond blanc pour l’icône de l’application.</desc>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.58" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </radialGradient>
+    <linearGradient id="red" gradientUnits="userSpaceOnUse" x1="174" y1="404" x2="101.8" y2="223.9">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.68" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="orange" gradientUnits="userSpaceOnUse" x1="101.8" y1="223.9" x2="256.1" y2="106.6">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.55" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="yellow" gradientUnits="userSpaceOnUse" x1="256.1" y1="106.6" x2="410.3" y2="224.3">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.52" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="green" gradientUnits="userSpaceOnUse" x1="410.3" y1="224.3" x2="338" y2="404">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.48" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="metalLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.62" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="metalRight" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.58" stop-color="#111111"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <filter id="ambientGlow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="vSoft" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="#ffffff"/><!-- Lumière ambiante discrète : profondeur sans sacrifier la lisibilité de l'icône. -->
+  <g opacity="0.22" filter="url(#ambientGlow)">
+    <circle cx="122" cy="286" r="112" fill="#111111"/>
+    <circle cx="256" cy="120" r="98" fill="#111111"/>
+    <circle cx="390" cy="286" r="112" fill="#111111"/>
+  </g>
+  <!-- Assise sombre et halo coloré, inspirés d'un cadran matériel haut de gamme. -->
+  <path d="M 174 404 A 160 160 0 1 1 338 404" fill="none" stroke="#111111" stroke-width="46" stroke-linecap="round" opacity="0.9"/>
+  <g fill="none" stroke-width="42" stroke-linecap="round" opacity="0.34" filter="url(#ambientGlow)">
+    <path d="M 174 404 A 160 160 0 0 1 101.8 223.9" stroke="#111111"/>
+    <path d="M 101.8 223.9 A 160 160 0 0 1 256.1 106.6" stroke="#111111"/>
+    <path d="M 256.1 106.6 A 160 160 0 0 1 410.3 224.3" stroke="#111111"/>
+    <path d="M 410.3 224.3 A 160 160 0 0 1 338 404" stroke="#111111"/>
+  </g>
+  <!-- Dégradé continu, quatre zones de longueur identique et sans rupture visible. -->
+  <g fill="none" stroke-width="30" stroke-linecap="butt">
+    <path d="M 174 404 A 160 160 0 0 1 101.8 223.9" stroke="#111111"/>
+    <path d="M 101.8 223.9 A 160 160 0 0 1 256.1 106.6" stroke="#111111"/>
+    <path d="M 256.1 106.6 A 160 160 0 0 1 410.3 224.3" stroke="#111111"/>
+    <path d="M 410.3 224.3 A 160 160 0 0 1 338 404" stroke="#111111"/>
+  </g>
+  <circle cx="174" cy="404" r="15" fill="#111111"/>
+  <circle cx="338" cy="404" r="15" fill="#111111"/>
+  <!-- Reflet supérieur très fin pour donner de la matière à l'anneau. -->
+  <path d="M 106 211 A 160 160 0 0 1 406 211" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" opacity="0.18"/>
+  <!-- V Ruban Premium : plus compact, facetté et entièrement enveloppé par l'anneau. -->
+  <g transform="translate(256 270) scale(.82) translate(-256 -270)">
+    <path d="M160 181 L208 181 L258 326 L235 393 L216 341 Z M352 181 L304 181 L258 326 L235 393 L278 393 Z" fill="#111111" opacity=".6" filter="url(#vSoft)"/>
+    <path d="M160 173 L208 173 L258 318 L235 385 L216 333 Z" fill="#111111"/>
+    <path d="M352 173 L304 173 L258 318 L235 385 L278 385 Z" fill="#111111"/>
+    <path d="M258 318 L278 385 L235 385 Z" fill="#111111" opacity=".72"/>
+    <path d="M164 176 L205 176 L256 319" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" opacity=".48"/>
+  </g>
+</svg>

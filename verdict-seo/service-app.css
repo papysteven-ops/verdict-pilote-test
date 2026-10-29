@@ -1,7 +1,7 @@
 /* Les espaces d'aide de Verdict : actions, panneaux et lecture progressive. */
 body.service-white.sv-service{--sv-accent:#2563eb;--sv-soft:#eff6ff;background:#f4f7fb!important;color:#17243a!important;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important}
 .sv-service .entete{background:#ffffffef!important;box-shadow:0 1px 0 #17243a08;backdrop-filter:blur(16px)}
-.sv-service .entete-in{min-height:72px;padding-block:12px}.sv-service .marque,.sv-service .marque sup{color:#090d14!important}.sv-service .marque img{filter:grayscale(1) brightness(0)}
+.sv-service .entete-in{min-height:72px;padding-block:12px}.sv-service .marque,.sv-service .marque sup{color:#090d14!important}.sv-service .marque img{filter:none}
 .sv-service main{max-width:1200px;margin:auto;padding:0 28px 48px}.sv-service main>.hero{padding:42px 0 28px;background:transparent!important;position:relative;border-bottom:0!important}
 .sv-service .hero>.large,.sv-service .hero>.colonne{width:100%;max-width:none;padding:0}.sv-service .hero h1{max-width:850px;font-size:clamp(32px,3.5vw,50px)!important;line-height:1.1;font-weight:780;letter-spacing:-.045em;color:#142238!important;margin-bottom:18px}
 .sv-service .hero .reponse{font-size:16px!important;line-height:1.7!important;max-width:840px;color:#44546b!important;margin-top:16px}.sv-service p,.sv-service li,.sv-service .r22-section p,.sv-service .r22-section li{color:#44546b!important;font-size:15px;line-height:1.8}.sv-service strong{color:#16263e!important}

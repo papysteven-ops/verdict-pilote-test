@@ -1,0 +1,63 @@
+/* Native topic captures. The entire original image is kept visible and zoomable. */
+.topic-captures{min-width:0;margin:40px 0 30px;color:#172638;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+figure.topic-capture{display:block;width:100%;min-width:0;margin:0 0 26px;padding:0;overflow:hidden;border:1px solid #d5dfeb;border-radius:18px;background:#fff;box-shadow:0 12px 34px #182c4507;text-align:left}
+.topic-capture-heading{display:block;padding:28px 30px 25px;border-bottom:1px solid #dfe6ef;background:#fff}
+.topic-capture-heading .topic-capture-eyebrow{margin:0 0 10px;color:#405672;font-size:11px;font-weight:750;line-height:1.5;letter-spacing:.12em}
+.topic-capture-heading h2{max-width:940px;margin:0;color:#172638;font:720 clamp(23px,2.3vw,32px)/1.18 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.8px;text-wrap:balance}
+.topic-capture-heading .topic-capture-description{max-width:850px;margin:14px 0 0;color:#405672;font-size:15px;line-height:1.7}
+.topic-capture-image,.topic-capture-image picture{display:block;width:100%;margin:0;padding:0;background:#f4f6fa;line-height:0}
+.topic-capture-image{cursor:zoom-in;text-decoration:none;border:0}
+figure.topic-capture .topic-capture-image img{display:block;width:100%;height:auto;max-width:100%;max-height:none;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;object-fit:contain;filter:none;opacity:1;transform:none;box-shadow:none}
+.topic-capture-image:hover{outline:2px solid #b7c8df;outline-offset:-2px}
+figure.topic-capture figcaption{display:block;margin:0;padding:24px 30px 28px;border-top:1px solid #dfe6ef;background:#fff;text-align:left}
+.topic-capture-caption-row{display:flex;align-items:flex-start;justify-content:space-between;gap:25px}
+.topic-capture-caption-row .topic-capture-provenance{flex:1;max-width:900px;margin:0;color:#405672;font-size:13px;line-height:1.7}
+.topic-capture-zoom{display:inline-flex;align-items:center;flex-shrink:0;min-height:36px;gap:12px;padding:6px 0;border-bottom:1px solid #a4bbdc;color:#1e55ac!important;font-size:13px;font-weight:700;line-height:1.6;text-decoration:none}
+.topic-capture-zoom:hover{color:#163f80!important;border-color:currentColor}
+.topic-capture-zoom svg{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+figure.topic-capture .topic-capture-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;counter-reset:topic-point;list-style:none;margin:23px 0 0;padding:24px 0 0;border-top:1px solid #e1e7f0}
+figure.topic-capture .topic-capture-points>li{display:block;min-width:0;position:relative;margin:0;padding:0 0 0 38px;counter-increment:topic-point;background:none;border:0;border-radius:0}
+.topic-capture-points>li:before{content:counter(topic-point,decimal-leading-zero);position:absolute;inset:0 auto auto 0;display:grid;place-items:center;width:27px;height:27px;border:1px solid #c3d2e7;border-radius:8px;background:#f0f5fc;color:#1e55ac;font:700 11px/1 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+figure.topic-capture .topic-capture-points strong{display:block;margin:0 0 6px;color:#172638;font-size:14px;line-height:1.55;font-weight:750}
+figure.topic-capture .topic-capture-points p{margin:0;color:#405672;font-size:14px;line-height:1.7}
+.topic-capture-points:has(>li:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+figure.topic-capture .topic-capture-limitation{max-width:990px;margin:20px 0 0;color:#405672;font-size:13px;line-height:1.7}
+.topic-product-note{max-width:950px;margin:0;padding:19px 22px;border-left:3px solid #a4b8d6;background:#edf2f8;color:#405672;font-size:14px;line-height:1.75}
+.topic-captures :is(a,button):focus-visible{outline:3px solid #2563eb;outline-offset:4px}
+/* The information pages do not depend on the marketing stylesheet for this dialog. */
+dialog.real-capture-dialog{width:min(1540px,calc(100vw - 32px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:0;overflow:hidden;border:1px solid #cad5e4;border-radius:14px;background:#fff;color:#172638;box-shadow:0 24px 100px #17263833;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+dialog.real-capture-dialog[open]{display:flex;flex-direction:column}
+.real-capture-dialog::backdrop{background:#142238a6;backdrop-filter:blur(4px)}
+.real-capture-dialog>header{display:flex;flex:0 0 auto;align-items:center;justify-content:space-between;gap:24px;padding:16px 22px;border-bottom:1px solid #d6dfeb;background:#fff}
+.real-capture-dialog>header h2{max-width:980px;margin:0;color:#172638;font:700 17px/1.4 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.3px}
+.real-capture-dialog>header>div{display:flex;flex-shrink:0;gap:9px}
+.real-capture-dialog button{min-height:42px;padding:10px 14px;border:1px solid #bfcee2;border-radius:8px;background:#fff;color:#243f62;font:650 13px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer}
+.real-capture-dialog button:hover{background:#edf3fc}
+.real-capture-dialog :is(button,.real-capture-zoom-surface):focus-visible{outline:3px solid #2563eb;outline-offset:-3px}
+.real-capture-dialog .real-capture-zoom-surface{display:flex;flex:1 1 auto;align-items:flex-start;justify-content:center;max-height:calc(100dvh - 190px);min-width:0;min-height:0;overflow:auto;overscroll-behavior:contain;padding:16px;background:#eff3f8;touch-action:pan-x pan-y}
+.real-capture-dialog .real-capture-zoom-surface img{display:block;width:auto;height:auto;max-width:100%;max-height:calc(100dvh - 222px);margin:0;padding:0;border:0;border-radius:0;object-fit:contain;filter:none!important;opacity:1!important;transform:none!important;box-shadow:none}
+.real-capture-dialog.is-native .real-capture-zoom-surface{display:block}
+.real-capture-dialog.is-native .real-capture-zoom-surface img{width:auto;height:auto;max-width:none;max-height:none;margin:0 auto;object-fit:contain}
+.real-capture-dialog .real-capture-dialog-caption{flex:0 0 auto;margin:0;padding:13px 22px;border-top:1px solid #d6dfeb;background:#fff;color:#405672;font:400 12px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(max-width:760px){
+ .topic-captures{margin:28px 0 22px}
+ figure.topic-capture{border-radius:13px}
+ .topic-capture-heading{padding:22px 20px}
+ .topic-capture-heading h2{font-size:25px;letter-spacing:-.6px}
+ .topic-capture-heading .topic-capture-description{font-size:14px}
+ figure.topic-capture figcaption{padding:19px 20px 23px}
+ .topic-capture-caption-row{display:block}
+ .topic-capture-zoom{margin-top:12px}
+ figure.topic-capture .topic-capture-points,figure.topic-capture .topic-capture-points:has(>li:nth-child(2):last-child){grid-template-columns:1fr;gap:20px;margin-top:20px;padding-top:20px}
+ figure.topic-capture .topic-capture-points>li{padding-left:39px}
+ dialog.real-capture-dialog{width:calc(100vw - 16px);max-width:calc(100vw - 16px);max-height:calc(100dvh - 16px);border-radius:10px}
+ .real-capture-dialog>header{display:block;padding:15px}
+ .real-capture-dialog>header h2{font-size:16px;margin-bottom:13px}
+ .real-capture-dialog>header>div{justify-content:space-between;gap:10px}
+ .real-capture-dialog button{font-size:12px;min-height:42px;padding:9px 12px}
+ .real-capture-dialog .real-capture-zoom-surface{max-height:calc(100dvh - 245px);padding:8px}
+ .real-capture-dialog .real-capture-zoom-surface img{max-height:calc(100dvh - 261px)}
+ .real-capture-dialog .real-capture-dialog-caption{padding:12px 15px;font-size:11px}
+}
+@media(prefers-reduced-motion:no-preference){.topic-capture-zoom,.real-capture-dialog button{transition:background-color 180ms,color 180ms,border-color 180ms}.real-capture-dialog[open]{animation:topic-dialog-in 220ms ease-out}@keyframes topic-dialog-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}
+@media print{.topic-capture-image{display:block}.topic-capture-zoom,.real-capture-dialog{display:none!important}figure.topic-capture{break-inside:avoid;box-shadow:none}.topic-capture-points{break-inside:avoid}}

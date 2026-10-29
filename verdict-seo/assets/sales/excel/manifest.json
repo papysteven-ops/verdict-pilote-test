@@ -1,16 +1,16 @@
 {
   "schema": "verdict-excel-captures/v1",
-  "generatedAt": "2026-10-29T14:57:11.137961+00:00",
+  "generatedAt": "2026-10-29T23:08:51.863194+00:00",
   "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
-  "renderMethod": "Rendu natif LibreOffice de copies privées d’impression figées aux valeurs mémorisées des classeurs. Aucun recalcul ni modification des originaux. Raster intégral du PDF, sans retouche des pixels. Ce ne sont pas des captures de l’interface Microsoft Excel.",
+  "renderMethod": "Rendu natif LibreOffice de copies privées d’impression figées aux valeurs mémorisées des classeurs. Données et styles conservés, originaux intacts. Identité Chicky actualisée sur sa copie de présentation avec le nouveau logo choisi par le fondateur. Raster intégral du PDF sans retouche de capture ; ce ne sont pas des captures de l’interface Microsoft Excel.",
   "projectionContext": "Prévisionnels personnels annuels de conception, pas des résultats d’exploitation constatés ni des gains clients.",
   "files": [
     {
       "id": "chicky",
       "file": "chicky-resultats.png",
       "sitePath": "assets/sales/excel/chicky-resultats.png",
-      "sha256": "9e69159bb470ce5546e4b286ccb356ac722ed4ee76ae4425578e335a82f8fb1a",
-      "bytes": 465221,
+      "sha256": "a3eface38ff25ed72e08a6ad8d9da2a91c8c068414f58c1c0e1608b486a4865d",
+      "bytes": 448200,
       "width": 4961,
       "height": 1890,
       "sourceWorkbook": "CHICKY PUNCH✅ Model client ✅.xlsx",
@@ -20,11 +20,18 @@
       "preTaxAnnualProjectionEUR": -44696.25,
       "sourceValuesVerified": true,
       "originalUnchanged": true,
-      "stylesDrawingsAndImagesPreserved": true,
+      "stylesDrawingsAndImagesPreserved": false,
       "pixelPostprocessing": "none",
-      "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
-      "logoNotice": "Original CLEAN FUEL logo retained unchanged in both worksheets, including Chicky Punch",
-      "visuallyReviewed": true
+      "caption": "Feuille Excel · valeurs enregistrées · logo Chicky actualisé · rendu LibreOffice",
+      "logoNotice": "Nouveau logo Chicky Punch approuvé par le fondateur, appliqué à une copie de présentation ; valeurs du classeur d’origine conservées.",
+      "visuallyReviewed": true,
+      "cellsAndStylesPreserved": true,
+      "presentationLogoUpdated": true,
+      "presentationLogo": {
+        "sitePath": "assets/sales/excel/chicky-logo.png",
+        "sha256": "7557037b77fe0b0006c2941580d0848893dd1216ba50572bb5ce8335de3a53ae",
+        "source": "Nouveau logo généré à partir de la référence fournie et explicitement choisi par le fondateur."
+      }
     },
     {
       "id": "clean",
@@ -44,7 +51,7 @@
       "stylesDrawingsAndImagesPreserved": true,
       "pixelPostprocessing": "none",
       "caption": "Feuille Excel · valeurs enregistrées · rendu LibreOffice",
-      "logoNotice": "Original CLEAN FUEL logo retained unchanged in both worksheets, including Chicky Punch",
+      "logoNotice": "Logo Clean Fuel de son classeur original conservé.",
       "visuallyReviewed": true
     }
   ]
