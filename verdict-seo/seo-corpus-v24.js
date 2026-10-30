@@ -1787,7 +1787,7 @@
       "canonicalPath": "seuil-rentabilite-restaurant.html",
       "indexable": true,
       "alias": false,
-      "sha256": "d2373fe744cf06135bebc3ee44354f65bb5dbfccdfb23434d0d60ae0d02c7957",
+      "sha256": "6f35dd8ffa3dc44914f24bf3e7f5a3a93766f374ebfe7327538aca9344068850",
       "navigationTitle": "Point mort et seuil de rentabilité",
       "navigationGroup": "SEO · Rentabilité et seuil",
       "navigationOrder": 9
