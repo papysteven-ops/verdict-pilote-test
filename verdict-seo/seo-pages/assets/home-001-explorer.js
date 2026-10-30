@@ -17,18 +17,23 @@
     else host.append(panel);
     if (restoreFocus) focus.focus({ preventScroll: true });
   }
-  function select(trigger) {
-    const close = selected === trigger;
+  function show(trigger) {
     panels.forEach(panel => { panel.hidden = true; host.append(panel); });
     triggers.forEach(link => link.setAttribute('aria-expanded', 'false'));
-    selected = close ? null : trigger;
-    neutral.hidden = !close;
+    selected = trigger;
+    neutral.hidden = Boolean(selected);
     if (selected) {
       selected.setAttribute('aria-expanded', 'true');
       const panel = document.getElementById(selected.getAttribute('aria-controls'));
       panel.hidden = false;
       placePanel();
     }
+  }
+  function select(trigger) {
+    const next = selected === trigger ? null : trigger;
+    const hash = next ? next.getAttribute('href') : '#questionExplorer';
+    if (window.location.hash !== hash) window.history.pushState(null, '', hash);
+    show(next);
   }
   if (choices && host && neutral && triggers.length && panels.length) {
     triggers.forEach(link => {
@@ -49,50 +54,11 @@
     neutral.hidden = false;
     function openHash() {
       const target = triggers.find(link => link.getAttribute('href') === window.location.hash);
-      if (target && target !== selected) select(target);
+      show(target || null);
     }
     openHash();
     window.addEventListener('hashchange', openHash);
+    window.addEventListener('popstate', openHash);
     narrow.addEventListener('change', placePanel);
   }
-  document.querySelectorAll('[data-model-card]').forEach(card => {
-    const figure = card.querySelector('figure.real-capture');
-    const image = figure && figure.querySelector('img');
-    const source = figure && figure.querySelector('source');
-    const caption = card.querySelector('[data-model-caption]');
-    const views = [...card.querySelectorAll('[data-model-view]')];
-    if (!figure || !image || !source || !caption || !views.length) return;
-    function change(link) {
-      const full = link.getAttribute('href');
-      const mobile = link.dataset.mobile;
-      views.forEach(item => item.setAttribute('aria-pressed', String(item === link)));
-      source.media = mobile ? '(max-width:700px)' : 'not all';
-      source.srcset = mobile || full;
-      source.width = mobile ? 390 : Number(link.dataset.width);
-      source.height = mobile ? 844 : Number(link.dataset.height);
-      image.width = Number(link.dataset.width);
-      image.height = Number(link.dataset.height);
-      image.src = full;
-      image.alt = link.dataset.alt;
-      figure.dataset.captureOriginal = full;
-      figure.dataset.captureTitle = link.dataset.title;
-      figure.dataset.captureCaption = link.dataset.caption;
-      figure.querySelectorAll('[data-capture-zoom]').forEach(zoom => {
-        zoom.href = full;
-        zoom.setAttribute('aria-label', 'Agrandir : ' + link.dataset.title);
-      });
-      caption.textContent = link.dataset.caption;
-    }
-    views.forEach(link => {
-      link.setAttribute('role', 'button');
-      link.setAttribute('aria-pressed', String(link.dataset.view === 'app'));
-      link.addEventListener('click', event => {
-        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-        event.preventDefault(); change(link);
-      });
-      link.addEventListener('keydown', event => {
-        if (event.key === ' ') { event.preventDefault(); change(link); }
-      });
-    });
-  });
 })();

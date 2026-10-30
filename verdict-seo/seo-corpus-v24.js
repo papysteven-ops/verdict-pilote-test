@@ -653,7 +653,7 @@
       "canonicalPath": "index.html",
       "indexable": true,
       "alias": false,
-      "sha256": "cf646b8075a06313ade2c7871dd03f79875f0174bec1fda992f0105cddc2ccb6",
+      "sha256": "78bed97ce60bbccc88946d9be7d2dd8791247a44aeacc950ff0e20e2fe4c2f32",
       "navigationTitle": "Accueil",
       "navigationGroup": "Accueil et vente",
       "navigationOrder": 1
