@@ -1,0 +1,181 @@
+/* Page 002. Product explanations never alter the captured application's pixels. */
+body.product002 {
+  --p2-paper: #fff;
+  --p2-canvas: #f3f5f7;
+  --p2-ink: #17212b;
+  --p2-muted: #526171;
+  --p2-line: #dfe5e9;
+  --p2-soft: #e9eef3;
+  --p2-blue: #225bb5;
+  background: var(--p2-canvas);
+  color: var(--p2-ink);
+  font-size: 16px;
+  line-height: 1.65;
+}
+.product002 .sale-shell { width: min(1200px, calc(100% - 80px)); }
+.product002 .sale-header { min-height: 94px; height: auto; }
+.product002 .sale-header-action, .product002 .sale-nav { font-size: 13px; }
+.product002 .sale-hero { padding-top: 56px; }
+.product002 .sale-hero-copy { padding: 0 0 34px; column-gap: 66px; }
+.product002 .sale-hero h1 {
+  font-size: clamp(40px, 4.8vw, 66px);
+  font-weight: 720;
+  line-height: 1.06;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+.product002 .sale-hero-intro { font-size: 18px; line-height: 1.7; }
+.product002 .sale-hero-actions { gap: 18px; margin-top: 22px; }
+.product002 .sale-hero-note { margin-top: 16px; font-size: 12px; line-height: 1.65; }
+.product002 .sale-eyebrow { font-size: 11px; letter-spacing: .09em; }
+.product002 .sale-button { min-height: 48px; padding: 13px 18px; font-size: 13px; }
+.product002 .sale-text-link { min-height: 44px; font-size: 13px; }
+.product002 .sale-proofline { font-size: 12px; margin-top: 28px; gap: 25px; }
+.product002 .sale-hero > .sale-real-gallery {
+  margin-top: 0;
+  background: var(--p2-paper);
+  border-color: var(--p2-line);
+  border-radius: 18px;
+  box-shadow: 0 16px 40px -30px #17212b30;
+}
+.product002-gallery-intro { padding: 30px 30px 24px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 45px; align-items: end; }
+.product002-gallery-intro h2 { margin-top: 12px; font-size: clamp(27px, 3vw, 38px); line-height: 1.12; letter-spacing: -.04em; }
+.product002-gallery-intro > p { color: var(--p2-muted); font-size: 15px; line-height: 1.75; }
+.product002-questions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; padding: 0 30px 28px; }
+.product002-questions a { display: block; padding: 0 24px; border-left: 1px solid var(--p2-line); }
+.product002-questions a:first-child { padding-left: 0; border-left: 0; }
+.product002-questions a:last-child { padding-right: 0; }
+.product002-questions span { display: block; margin-bottom: 9px; color: var(--p2-muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.product002-questions strong { display: block; font-size: 21px; line-height: 1.3; letter-spacing: -.025em; }
+.product002-questions p { margin-top: 9px; font-size: 14px; line-height: 1.7; color: var(--p2-muted); }
+.product002 .sale-visual-toolbar { gap: 14px; padding: 13px 20px; border-top: 1px solid var(--p2-line); }
+.product002 .sale-real-tabs a { font-size: 13px; min-height: 44px; display: inline-flex; align-items: center; }
+.product002 .sale-native-status { font-size: 11px; }
+.product002 .sale-native-size { min-height: 44px; font-size: 12px; }
+.product002 .sale-real-panels { padding: 0; background: var(--p2-soft); }
+.product002 .sale-real-panel figcaption { padding: 20px 25px; gap: 25px; }
+.product002 .sale-real-panel figcaption strong { font-size: 16px; }
+.product002 .sale-real-panel figcaption span { margin-top: 5px; font-size: 13px; line-height: 1.6; }
+.product002 .sale-real-panel figcaption p { font-size: 11px; line-height: 1.7; max-width: 480px; }
+.product002 .sale-real-note { padding: 14px 25px 3px; font-size: 11px; }
+.product002 .sale-capture-context { padding: 13px 25px 21px; font-size: 13px; }
+.product002 .sale-capture-context summary { min-height: 44px; display: flex; align-items: center; }
+.product002 .sale-capture-context > p { max-width: 950px; padding: 0 0 8px; color: var(--p2-muted); font-size: 13px; line-height: 1.75; }
+.product002 .sale-ribbon { margin-block: 24px 42px; }
+.product002 .sale-ribbon strong { font-size: 16px; }
+.product002 .sale-ribbon small { font-size: 13px; }
+.product002 #comment-ca-marche { padding-block: 34px 56px; }
+.product002 .sale-connection-heading p, .product002 .sale-process-copy p { font-size: 15px; line-height: 1.8; }
+.product002 .sale-process-nav button { font-size: 14px; }
+.product002 .sale-pricing-section { padding-block: 40px 50px; border-top: 1px solid var(--p2-line); }
+.product002-launch-status { display: inline-block; margin-bottom: 25px; padding: 12px 16px; border: 1px solid var(--p2-line); border-radius: 8px; background: var(--p2-soft); color: var(--p2-ink); font-size: 13px; font-weight: 600; line-height: 1.65; }
+.product002 .offer-intro { font-size: 16px; }
+.product002 .offer-feature > summary { min-height: 48px; font-size: 15px; }
+.product002 .offer-feature > div, .product002 .offer-feature > p { font-size: 14px; line-height: 1.8; }
+.product002 .offer-panel-heading > p, .product002 .offer-flow-cell p, .product002 .offer-plan-notes p { font-size: 14px; line-height: 1.8; }
+.product002 .sale-demo-section { padding-block: 45px 58px; border-top: 1px solid var(--p2-line); }
+.product002 .sale-section-head > p { font-size: 15px; line-height: 1.8; }
+.product002 .sale-pedagogy-label { padding: 18px 22px; }
+.product002 .sale-pedagogy-label span { font-size: 13px; line-height: 1.7; }
+.product002 .sale-demo-tabs a { min-height: 52px; font-size: 14px; }
+.product002 .sale-demo-description > p, .product002 .sale-demo-reading { font-size: 14px; line-height: 1.8; }
+.product002 .sale-demo-fields label { font-size: 13px; line-height: 1.7; }
+.product002 .sale-demo-fields input { font-size: 16px; }
+.product002 .sale-demo-formula { font-size: 13px; line-height: 1.8; }
+.product002 .sale-demo-result .sale-result-unit { font-size: 13px; line-height: 1.7; }
+.product002 .sale-demo-result output { font-size: clamp(36px, 3vw, 50px); line-height: 1.15; letter-spacing: -.035em; max-width: 100%; overflow-wrap: break-word; }
+.product002 .sale-faq-section { padding-block: 50px; }
+.product002 .sale-faq summary { min-height: 54px; font-size: 15px; line-height: 1.6; }
+.product002 .sale-faq details > div p { font-size: 14px; line-height: 1.85; }
+.product002 .sale-footer { font-size: 12px; }
+.product002 .sale-footer p { font-size: 12px; line-height: 1.75; }
+.product002 .sale-zoom-caption { font-size: 13px; line-height: 1.7; }
+.product002 .product002-practice-text { display: block; }
+.product002-practice-text .offer-day { max-width: none; }
+.product002-practice-text .offer-day-step { max-width: 900px; }
+.product002-static-note { padding: 18px 22px; background: var(--p2-soft); color: var(--p2-ink); border-bottom: 1px solid var(--p2-line); font-size: 14px; line-height: 1.8; }
+.product002-rounding-note { padding: 0 25px 22px; color: var(--p2-muted); font-size: 12px; line-height: 1.7; grid-column: 1 / -1; }
+.product002 .sale-demo-fields input:disabled { opacity: 1; -webkit-text-fill-color: var(--p2-ink); color: var(--p2-ink); cursor: default; }
+.product002 :is(a, button, input, summary):focus-visible { outline: 3px solid var(--p2-blue); outline-offset: 4px; }
+
+@media (max-width: 900px) {
+  .product002 .sale-shell { width: calc(100% - 48px); }
+  .product002 .sale-hero-copy { gap: 28px; }
+  .product002 .sale-hero h1 { font-size: 45px; }
+  .product002 .sale-hero-intro { font-size: 16px; }
+  .product002-gallery-intro { gap: 25px; }
+  .product002-questions a { padding-inline: 16px; }
+  .product002-questions strong { font-size: 19px; }
+  .product002 .sale-native-status { display: none; }
+  .product002 .sale-demo-panel { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .product002 .sale-shell { width: calc(100% - 36px); }
+  .product002 .sale-header { min-height: 76px; gap: 16px; }
+  .product002 .sale-header-action { padding: 10px 12px; min-height: 44px; font-size: 11px; gap: 12px; }
+  .product002 .sale-hero { padding-top: 34px; }
+  .product002 .sale-hero-copy { display: block; padding-bottom: 30px; }
+  .product002 .sale-hero h1 { margin-top: 15px; font-size: clamp(36px, 9.5vw, 48px); }
+  .product002 .sale-hero-intro { padding-top: 0; margin-top: 23px; font-size: 16px; }
+  .product002 .sale-hero-actions { margin-top: 24px; gap: 11px; }
+  .product002 .sale-proofline { margin-top: 22px; font-size: 11px; gap: 9px 17px; }
+  .product002-gallery-intro { display: block; padding: 23px 22px; }
+  .product002-gallery-intro h2 { font-size: 29px; }
+  .product002-gallery-intro > p { margin-top: 20px; font-size: 14px; }
+  .product002-questions { display: block; padding: 0 22px 7px; }
+  .product002-questions a, .product002-questions a:first-child, .product002-questions a:last-child { padding: 18px 0; border-left: 0; border-top: 1px solid var(--p2-line); }
+  .product002-questions span { margin-bottom: 6px; font-size: 10px; }
+  .product002-questions strong { font-size: 20px; }
+  .product002-questions p { margin-top: 6px; font-size: 14px; }
+  .product002 .sale-visual-toolbar { padding-inline: 12px; gap: 9px; flex-wrap: wrap; }
+  .product002 .sale-real-tabs { width: 100%; gap: 4px; }
+  .product002 .sale-real-tabs a { flex: 1; justify-content: center; padding: 10px 8px; font-size: 13px; }
+  .product002 .sale-native-size { display: none; }
+  .product002 .sale-real-panel figcaption { padding: 20px; display: block; }
+  .product002 .sale-real-panel figcaption p { margin-top: 15px; text-align: left; font-size: 11px; }
+  .product002 .sale-real-note { padding: 12px 20px 0; }
+  .product002 .sale-capture-context { padding: 10px 20px 17px; }
+  .product002 .sale-ribbon { margin-block: 18px 25px; }
+  .product002 .sale-ribbon > button { padding: 17px; }
+  .product002 #comment-ca-marche { padding-block: 25px 38px; }
+  .product002 .sale-process-nav button { min-height: 54px; font-size: 13px; }
+  .product002 .sale-pricing-section { padding-block: 35px; }
+  .product002-launch-status { padding: 12px 14px; font-size: 12px; }
+  .product002 .offer-feature > summary { font-size: 14px; }
+  .product002 .sale-demo-section { padding-block: 35px; }
+  .product002 .sale-demo-tabs a { font-size: 12px; }
+  .product002 .sale-demo-result output { font-size: clamp(24px, 6.7vw, 36px); }
+  .product002 .sale-faq-section { padding-block: 35px; }
+  .product002 .sale-faq summary { font-size: 14px; }
+}
+@media (prefers-color-scheme: dark) {
+  html:has(body.product002) { color-scheme: dark; }
+  body.product002 { --p2-paper: #181e25; --p2-canvas: #101419; --p2-ink: #f3f4f6; --p2-muted: #b1becb; --p2-line: #35404b; --p2-soft: #202a35; --p2-blue: #a0c7ff; --sale-ink: var(--p2-ink); --sale-muted: var(--p2-muted); --sale-line: var(--p2-line); --sale-canvas: var(--p2-canvas); --sale-paper: var(--p2-paper); }
+  .product002 :is(h1, h2, h3, h4, .offer-price, .offer-plan-price, .sale-brand, .sale-zoom-header h2) { color: var(--p2-ink); }
+  .product002 :is(p, li, small, summary, label, .sale-eyebrow, .sale-proofline, .sale-native-status, .offer-availability, .offer-extra, .offer-annual-reference, .offer-plan-name, .offer-card-question, .offer-best-for, .sale-result-label, .sale-result-unit, .sale-result-legend, .sale-process-nav button, .sale-demo-tabs a, .sale-real-tabs a) { color: var(--p2-muted); }
+  .product002 :is(.sale-header-action, .sale-visual-toolbar, .sale-real-panel figcaption, .sale-real-note, .sale-capture-context, .sale-ribbon > button, .offer-price-card, .offer-plan-panel, .offer-feature, .offer-feature summary, .offer-limits, .offer-comparison, .offer-conditions, .sale-demo, .sale-demo-description, .sale-demo-result, .sale-demo-tabs, .sale-demo-bottom, .sale-process-nav button, .sale-process, .sale-detail-card, .sale-faq details, .sale-field, .sale-disclosure, .sale-image-dialog, .sale-zoom-header, .sale-zoom-caption) { background: var(--p2-paper); border-color: var(--p2-line); }
+  .product002 :is(.offer-module-note, .offer-billing-bar, .offer-flow-cell, .offer-plan-notes, .offer-pro-difference, .offer-next-plan, .offer-day, .sale-pedagogy-label, .sale-demo-formula, .sale-tool-scope, .sale-zoom-surface, .sale-result-legend, .sale-photo-caption) { background: var(--p2-soft); border-color: var(--p2-line); }
+  .product002 :is(.sale-text-link, .sale-nav a, .offer-card-action, .offer-plan-actions a, .offer-feature a, .sale-footer a, .sale-real-panel figcaption strong, .product002-questions strong) { color: var(--p2-blue); }
+  .product002 :is(.sale-header-action, .sale-native-size, .sale-zoom-header button, .sale-reset, .offer-billing-switch button, .offer-detail-tabs a, .sale-button.light) { background: var(--p2-soft); color: var(--p2-ink); border-color: var(--p2-line); }
+  .product002 :is(.sale-real-tabs a[aria-selected=true], .sale-demo-tabs a[aria-selected=true], .offer-detail-tabs a[aria-selected=true], .offer-billing-switch button[aria-pressed=true], .sale-process-nav button[aria-selected=true]) { background: #293e59; color: #dceaff; border-color: #6e9ed8; }
+  .product002 :is(.offer-price-card.is-selected, .sale-ribbon > button[aria-pressed=true]) { border-color: #6e9ed8; }
+  .product002 .sale-demo-fields input { background: var(--p2-canvas); color: var(--p2-ink); border-color: #7c8fa3; }
+  .product002 .field-unit { background: var(--p2-canvas); color: var(--p2-muted); border-color: var(--p2-line); }
+  .product002 .offer-billing-note { background: #2a2418; color: #dec390; border-color: #5c5136; }
+  .product002 .sale-native-status { background: var(--p2-soft); color: var(--p2-muted); border-color: var(--p2-line); }
+  .product002 :is(h1, h2, h3) em { color: inherit; }
+  .product002 .offer-feature summary:hover { background: var(--p2-soft); }
+  .product002 :is(.sale-demo-result output, .offer-price-card .offer-amount, .offer-plan-price strong) { color: #c9dfff; }
+  .product002 :is(table, th, td) { border-color: var(--p2-line); background: var(--p2-paper); color: var(--p2-ink); }
+  .product002 .sale-close { background: #1b2634; border-color: var(--p2-line); }
+  .product002 .sale-close :is(h2, p, small, a) { color: #f3f4f6; }
+  .product002 .sale-field-photo { background: var(--p2-paper); }
+  .product002 .sale-capture-button, .product002 .sale-real-panels { background: var(--p2-canvas); }
+  .product002 .sale-capture-hint { background: #182536ed; color: #dceaff; border-color: #59789d; }
+  .product002 .sale-button { color: #fff; }
+  .product002 .sale-skip { background: var(--p2-paper); color: var(--p2-ink); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(body.product002) { scroll-behavior: auto; }
+  .product002 *, .product002 *::before, .product002 *::after { animation: none !important; transition: none !important; }
+}
