@@ -1,0 +1,203 @@
+/* Page 008: an explicit partial reading, never a complete business result. */
+body.profitability008 {
+  --r8-bg: #f3f5f7;
+  --r8-paper: #fff;
+  --r8-ink: #18232d;
+  --r8-muted: #526170;
+  --r8-line: #dce3e8;
+  --r8-soft: #eaf0f5;
+  --r8-blue: #225bb5;
+  --r8-inverse: #fff;
+  --r8-error: #a4342a;
+  margin: 0;
+  background: var(--r8-bg);
+  color: var(--r8-ink);
+  font: 16px/1.75 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+html[data-theme=dark] body.profitability008 {
+  --r8-bg: #101419;
+  --r8-paper: #181e25;
+  --r8-ink: #f3f4f6;
+  --r8-muted: #b1becb;
+  --r8-line: #35404b;
+  --r8-soft: #202a35;
+  --r8-blue: #a0c7ff;
+  --r8-inverse: #17212b;
+  --r8-error: #ffb0a4;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme=light]) body.profitability008 {
+    --r8-bg: #101419;
+    --r8-paper: #181e25;
+    --r8-ink: #f3f4f6;
+    --r8-muted: #b1becb;
+    --r8-line: #35404b;
+    --r8-soft: #202a35;
+    --r8-blue: #a0c7ff;
+    --r8-inverse: #17212b;
+    --r8-error: #ffb0a4;
+    color-scheme: dark;
+  }
+}
+.profitability008 .large { width: min(1180px, calc(100% - 80px)); max-width: none; margin-inline: auto; }
+.profitability008 :is(h1,h2,h3) { color: var(--r8-ink); font-family: inherit; font-weight: 650; text-wrap: balance; }
+.profitability008 h2 { margin: 0 0 22px; font-size: clamp(29px, 3.1vw, 42px); line-height: 1.16; letter-spacing: -.035em; }
+.profitability008 p, .profitability008 li { color: var(--r8-muted); }
+.profitability008 p { font-size: 16px; line-height: 1.8; }
+.profitability008 a { color: var(--r8-blue); }
+.profitability008 :is(a,button,input,select,summary):focus-visible { outline: 3px solid var(--r8-blue); outline-offset: 5px; }
+.profitability008 .entete { background: var(--r8-bg); border-bottom: 1px solid var(--r8-line); box-shadow: none; }
+.profitability008 .entete-in { min-height: 92px; }
+.profitability008 .marque, .profitability008 .nav-large a { color: var(--r8-ink); }
+.profitability008 .nav-large { gap: 22px; }
+.profitability008 .nav-large a { font-size: 13px; }
+.profitability008 .menu summary { color: var(--r8-ink); border-color: var(--r8-line); }
+.profitability008 .menu-liste { background: var(--r8-paper); border-color: var(--r8-line); }
+.profitability008 .menu-liste a { color: var(--r8-ink); }
+.profitability008 .bouton { display: inline-flex; min-height: 48px; max-width: 100%; align-items: center; justify-content: center; padding: 13px 18px; border: 1px solid var(--r8-blue); border-radius: 8px; background: var(--r8-blue); color: var(--r8-inverse); font-size: 14px; line-height: 1.5; text-align: center; white-space: normal; text-decoration: none; box-shadow: none; }
+.profitability008 .bouton-petit { min-height: 44px; font-size: 12px; }
+.profitability008 .hero { padding: 56px 0 36px; background: transparent; border: 0; }
+.profitability008 .hero .large { display: block; padding-block: 0; text-align: left; }
+.profitability008 .hero h1 { max-width: 950px; margin: 18px 0 25px; font-size: clamp(38px, 4.7vw, 64px); line-height: 1.08; letter-spacing: -.045em; font-weight: 720; }
+.profitability008 .hero .profitability008-intro { max-width: 860px; font-size: 19px; line-height: 1.7; }
+.profitability008 .hero .sv-section-tag { color: var(--r8-muted); }
+.profitability008 .hero-actions { margin-top: 25px; }
+.profitability008 .profitability008-reading-meta { margin-top: 22px; font-size: 12px; }
+.profitability008 .profitability008-launch { margin: 28px 0 0; padding: 18px 22px; border-left: 3px solid var(--r8-blue); background: var(--r8-soft); border-radius: 0 8px 8px 0; max-width: 950px; font-size: 14px; }
+.profitability008 .sv-jumps { width: min(1180px, calc(100% - 80px)); margin: 0 auto 20px; padding: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.profitability008 .sv-jumps a { display: flex; align-items: center; min-height: 54px; padding: 15px 18px; border: 1px solid var(--r8-line); border-radius: 9px; background: var(--r8-paper); color: var(--r8-ink); font-size: 13px; line-height: 1.6; }
+.profitability008 .r22-toc { margin-block: 0; padding: 15px 0 25px; border: 0; background: transparent; }
+.profitability008 .r22-toc ol { display: flex; flex-wrap: wrap; gap: 8px 22px; padding: 0; margin: 10px 0 0; list-style: none; }
+.profitability008 .r22-toc a { font-size: 13px; color: var(--r8-muted); }
+.profitability008 main > .bloc { margin: 0; padding: 48px 0; border: 0; border-top: 1px solid var(--r8-line); border-radius: 0; background: transparent; box-shadow: none; scroll-margin-top: 110px; }
+.profitability008-skip { position: absolute; left: -999rem; }
+.profitability008-skip:focus { left: 16px; top: 16px; z-index: 100; padding: 14px; border: 2px solid var(--r8-blue); background: var(--r8-paper); }
+.profitability008 .hero-actions { display: flex; flex-wrap: wrap; gap: 20px 28px; align-items: center; }
+.profitability008-secondary { display: inline-flex; min-height: 48px; align-items: center; font-size: 14px; font-weight: 650; text-underline-offset: 5px; }
+.profitability008-jumps { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; padding-bottom: 35px; }
+.profitability008-jumps a { display: flex; min-height: 54px; align-items: center; padding: 15px 18px; border: 1px solid var(--r8-line); border-radius: 8px; background: var(--r8-paper); color: var(--r8-ink); font-size: 13px; line-height: 1.7; }
+.profitability008-section-head { max-width: 920px; margin-bottom: 30px; }
+.profitability008-section-head > p:last-child { max-width: 830px; }
+.profitability008 .profitability008-eyebrow { margin: 0 0 13px; color: var(--r8-muted); font-size: 11px; font-weight: 700; line-height: 1.6; letter-spacing: .08em; text-transform: uppercase; }
+.profitability008-period, .profitability008-action { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: start; }
+.profitability008-period > div > p:first-child, .profitability008-action > div > p:first-child { margin-top: 0; }
+.profitability008 .profitability008-key-note { margin-top: 25px; padding: 20px 24px; border-left: 3px solid var(--r8-blue); border-radius: 0 8px 8px 0; background: var(--r8-soft); color: var(--r8-ink); font-size: 15px; }
+.profitability008-posts, .profitability008-distinctions { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 17px; }
+.profitability008-posts article { min-width: 0; padding: 26px; border: 1px solid var(--r8-line); border-radius: 10px; background: var(--r8-paper); }
+.profitability008-posts h3, .profitability008-distinctions h3 { margin: 0 0 19px; font-size: 24px; line-height: 1.3; letter-spacing: -.025em; }
+.profitability008-posts p, .profitability008-distinctions p { margin: 0; font-size: 15px; }
+.profitability008-flow { margin-top: 28px; padding: 26px 30px; border-left: 3px solid var(--r8-blue); border-radius: 0 10px 10px 0; background: var(--r8-soft); }
+.profitability008 .profitability008-formula { margin: 0; color: var(--r8-ink); font-size: 23px; font-weight: 650; line-height: 1.6; letter-spacing: -.02em; }
+.profitability008-flow > p:last-child { margin-bottom: 0; font-size: 13px; }
+.profitability008-calculator { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+.profitability008-fields, .profitability008-output { min-width: 0; padding: 28px; border: 1px solid var(--r8-line); border-radius: 12px; background: var(--r8-paper); }
+.profitability008 .profitability008-input-help { margin: 0 0 24px; font-size: 12px; line-height: 1.85; }
+.profitability008-fields label { display: block; margin-top: 23px; color: var(--r8-ink); font-size: 15px; line-height: 1.7; }
+.profitability008-fields input { display: block; width: 100%; max-width: 100%; min-height: 52px; margin-top: 9px; padding: 11px 13px; border: 1px solid var(--r8-line); border-radius: 7px; color: var(--r8-ink); background: var(--r8-bg); font: inherit; font-size: 18px; }
+.profitability008-fields input[aria-invalid=true] { border-color: var(--r8-error); }
+.profitability008-fields input:disabled, .profitability008-fields button:disabled { opacity: .65; cursor: not-allowed; }
+.profitability008-fields [data-r8-error] { display: block; margin-top: 8px; color: var(--r8-error); font-size: 12px; line-height: 1.7; }
+.profitability008-fields [data-r8-error]:empty { display: none; }
+.profitability008-field-help { display: block; margin-top: 9px; color: var(--r8-muted); font-size: 12px; line-height: 1.8; }
+.profitability008-fields button { min-height: 44px; margin-top: 25px; padding: 11px 14px; border: 1px solid var(--r8-line); border-radius: 7px; color: var(--r8-ink); background: var(--r8-bg); font: inherit; font-size: 13px; cursor: pointer; }
+.profitability008-fields noscript p { margin-top: 20px; font-size: 12px; }
+.profitability008 .profitability008-output-status { margin: 0 0 21px; color: var(--r8-muted); font-size: 13px; line-height: 1.8; }
+.profitability008-result { min-width: 0; padding-block: 21px; border-top: 1px solid var(--r8-line); }
+.profitability008-result > span { display: block; margin-bottom: 12px; color: var(--r8-muted); font-size: 13px; line-height: 1.75; }
+.profitability008-result > strong { display: block; max-width: 100%; color: var(--r8-ink); font-size: clamp(25px,2.8vw,36px); font-weight: 650; line-height: 1.5; letter-spacing: -.035em; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.profitability008-main-result { margin-inline: -13px; padding-inline: 13px; border-radius: 7px; background: var(--r8-soft); }
+.profitability008-main-result > span { color: var(--r8-ink); font-weight: 650; }
+.profitability008-result [data-r8-ratio] { font-size: clamp(21px,2.3vw,30px); }
+.profitability008 .profitability008-output-note { margin: 13px 0 0; padding-top: 19px; border-top: 1px solid var(--r8-line); font-size: 12px; line-height: 1.8; }
+.profitability008-distinctions { gap: 0; }
+.profitability008-distinctions article { min-width: 0; padding: 0 27px; border-left: 1px solid var(--r8-line); }
+.profitability008-distinctions article:first-child { padding-left: 0; border: 0; }
+.profitability008-distinctions article:last-child { padding-right: 0; }
+.profitability008-reading { margin-top: 32px; padding: 27px 30px; border: 1px solid var(--r8-line); border-radius: 10px; background: var(--r8-paper); }
+.profitability008-reading h3 { margin: 0 0 17px; font-size: 24px; line-height: 1.4; letter-spacing: -.025em; }
+.profitability008-reading p { margin: 0; font-size: 15px; }
+.profitability008-faq { margin-top: 35px; }
+.profitability008-faq > h3 { margin: 0 0 20px; font-size: 28px; line-height: 1.3; letter-spacing: -.025em; }
+.profitability008-faq details { margin-top: 12px; padding: 18px 23px; border: 1px solid var(--r8-line); border-radius: 9px; background: var(--r8-paper); }
+.profitability008-faq summary { min-height: 44px; color: var(--r8-ink); font-size: 15px; line-height: 1.8; cursor: pointer; }
+.profitability008-faq details > p { margin: 15px 0 0; font-size: 14px; }
+.profitability008-scope { margin-top: 27px; }
+.profitability008-scope p { margin-bottom: 0; font-size: 13px; }
+.profitability008-text-link { display: flex; width: fit-content; align-items: center; min-height: 44px; margin-top: 16px; font-size: 13px; font-weight: 650; line-height: 1.8; text-underline-offset: 5px; }
+.profitability008-action .bouton { margin-top: 15px; }
+.profitability008-related { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; }
+.profitability008-related a { display: block; min-width: 0; padding: 24px; border: 1px solid var(--r8-line); border-radius: 10px; background: var(--r8-paper); text-decoration: none; }
+.profitability008-related span { display: block; margin-bottom: 14px; color: var(--r8-muted); font-size: 11px; font-weight: 650; line-height: 1.6; letter-spacing: .06em; text-transform: uppercase; }
+.profitability008-related strong { display: block; color: var(--r8-ink); font-size: 21px; line-height: 1.4; font-weight: 650; letter-spacing: -.02em; }
+.profitability008 .pied { margin: 0; padding-top: 35px; border-top: 1px solid var(--r8-line); background: var(--r8-paper); color: var(--r8-muted); }
+.profitability008 .pied ul { display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 0; list-style: none; }
+.profitability008 .pied a { color: var(--r8-muted); font-size: 12px; }
+.profitability008 .pied p { max-width: none; font-size: 12px; }
+.profitability008 .affichage button, .profitability008 .v-motion-control { min-height: 44px; border: 1px solid var(--r8-line); background: var(--r8-bg); color: var(--r8-ink); font-size: 12px; }
+.profitability008 .affichage button[aria-pressed=true] { border-color: var(--r8-blue); background: var(--r8-soft); }
+.profitability008 :is(#cas-reference,#facteurs,#waterfall,#croyances,#simuler,#simulateur,#cas-chiffre,#questions,#perimetre,#decision,#reponse-detail) { scroll-margin-top: 110px; }
+@media (max-width: 900px) {
+ .profitability008 .large { width: calc(100% - 48px); }
+ .profitability008-period, .profitability008-action { gap: 36px; }
+ .profitability008-posts article { padding: 22px; }
+ .profitability008-calculator { gap: 20px; }
+ .profitability008-fields, .profitability008-output { padding: 23px; }
+ .profitability008-distinctions article { padding-inline: 20px; }
+ .profitability008-related a { padding: 20px; }
+}
+@media (max-width: 700px) {
+ .profitability008 .large { width: calc(100% - 36px); }
+ .profitability008 .entete-in { min-height: 76px; }
+ .profitability008 .entete-in > .bouton-petit { display: none; }
+ .profitability008 .hero { padding: 35px 0 27px; }
+ .profitability008 .hero h1 { font-size: clamp(35px,9.5vw,46px); margin-block: 15px 22px; }
+ .profitability008 .hero .profitability008-intro { font-size: 16px; line-height: 1.75; }
+ .profitability008 .hero-actions { display: block; }
+ .profitability008-secondary { display: flex; width: fit-content; margin-top: 16px; }
+ .profitability008 .profitability008-reading-meta { font-size: 11px; }
+ .profitability008-jumps { grid-template-columns: 1fr 1fr; gap: 10px; padding-bottom: 28px; }
+ .profitability008-jumps a { padding: 13px; font-size: 12px; }
+ .profitability008 main > .bloc { padding-block: 34px; scroll-margin-top: 90px; }
+ .profitability008 h2 { font-size: 30px; }
+ .profitability008 p { font-size: 15px; line-height: 1.8; }
+ .profitability008-section-head { margin-bottom: 25px; }
+ .profitability008-period, .profitability008-posts, .profitability008-calculator, .profitability008-distinctions, .profitability008-action, .profitability008-related { display: block; }
+ .profitability008-period > div + div, .profitability008-action > div + div { margin-top: 25px; }
+ .profitability008-posts article { margin-top: 13px; padding: 23px; }
+ .profitability008-posts h3 { font-size: 23px; }
+ .profitability008-posts p { font-size: 14px; }
+ .profitability008-flow { margin-top: 24px; padding: 23px; }
+ .profitability008 .profitability008-formula { font-size: 20px; }
+ .profitability008-flow > p:last-child { font-size: 12px; }
+ .profitability008-fields, .profitability008-output { padding: 23px; }
+ .profitability008-fields label { font-size: 14px; }
+ .profitability008 .profitability008-input-help { font-size: 12px; }
+ .profitability008-output { margin-top: 20px; }
+ .profitability008-result > strong { font-size: 26px; line-height: 1.6; }
+ .profitability008-result [data-r8-ratio] { font-size: 22px; }
+ .profitability008 .profitability008-output-note, .profitability008 .profitability008-output-status { font-size: 12px; }
+ .profitability008-distinctions article, .profitability008-distinctions article:first-child, .profitability008-distinctions article:last-child { padding: 22px 0; border: 0; border-top: 1px solid var(--r8-line); }
+ .profitability008-distinctions article:first-child { padding-top: 0; border: 0; }
+ .profitability008-distinctions h3 { font-size: 23px; }
+ .profitability008-distinctions p { font-size: 14px; }
+ .profitability008-reading { margin-top: 22px; padding: 23px; }
+ .profitability008-reading h3 { font-size: 23px; }
+ .profitability008-reading p { font-size: 14px; }
+ .profitability008-faq > h3 { font-size: 25px; }
+ .profitability008-faq details { padding: 18px; }
+ .profitability008-faq summary { font-size: 14px; }
+ .profitability008-faq details > p { font-size: 13px; }
+ .profitability008-scope p { font-size: 12px; }
+ .profitability008-related a { margin-top: 13px; padding: 23px; }
+ .profitability008 .pied { padding-top: 26px; }
+ .profitability008 .pied ul { gap: 8px 19px; }
+ .profitability008 :is(#cas-reference,#facteurs,#waterfall,#croyances,#simuler,#simulateur,#cas-chiffre,#questions,#perimetre,#decision,#reponse-detail) { scroll-margin-top: 90px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ html:has(body.profitability008) { scroll-behavior: auto; }
+ .profitability008 *, .profitability008 *::before, .profitability008 *::after { animation: none !important; transition: none !important; }
+}
+html[data-motion=paused]:has(body.profitability008) { scroll-behavior: auto; }
+html[data-motion=paused] .profitability008 *, html[data-motion=paused] .profitability008 *::before, html[data-motion=paused] .profitability008 *::after { animation: none !important; transition: none !important; }
