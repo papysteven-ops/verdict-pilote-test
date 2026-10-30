@@ -1,0 +1,82 @@
+/* Private page014 candidate: clarify cost inclusion before examining the threshold. */
+body.remuneration014 { --r14-bg:#f3f5f7; --r14-paper:#fff; --r14-ink:#1b2834; --r14-muted:#526373; --r14-line:#d8e1e9; --r14-soft:#e8eef5; --r14-accent:#245ba3; --r14-inverse:#fff; margin:0; background:var(--r14-bg); color:var(--r14-ink); font:16px/1.75 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color-scheme:light; }
+html[data-theme=dark] body.remuneration014 { --r14-bg:#111720; --r14-paper:#192330; --r14-ink:#edf3fa; --r14-muted:#b7c7d9; --r14-line:#38495c; --r14-soft:#223247; --r14-accent:#a6ccff; --r14-inverse:#15243a; color-scheme:dark; }
+@media(prefers-color-scheme:dark) { html:not([data-theme=light]) body.remuneration014 { --r14-bg:#111720; --r14-paper:#192330; --r14-ink:#edf3fa; --r14-muted:#b7c7d9; --r14-line:#38495c; --r14-soft:#223247; --r14-accent:#a6ccff; --r14-inverse:#15243a; color-scheme:dark; } }
+.remuneration014 .large { width:min(1180px,calc(100% - 80px)); max-width:none; margin-inline:auto; }
+.remuneration014 :is(h1,h2,h3) { color:var(--r14-ink); font-family:inherit; font-weight:650; text-wrap:balance; }
+.remuneration014 h2 { margin:0 0 22px; font-size:clamp(29px,3.1vw,42px); line-height:1.18; letter-spacing:-.035em; }
+.remuneration014 h3 { margin:0 0 16px; font-size:23px; line-height:1.35; letter-spacing:-.02em; }
+.remuneration014 :is(p,li,dd) { color:var(--r14-muted); }
+.remuneration014 p { font-size:16px; line-height:1.8; }
+.remuneration014 a { color:var(--r14-accent); text-underline-offset:4px; }
+.remuneration014 :is(a,button,summary):focus-visible { outline:3px solid var(--r14-accent); outline-offset:5px; }
+.remuneration014 [id] { scroll-margin-top:110px; }
+.remuneration014 .entete { background:var(--r14-bg); border-bottom:1px solid var(--r14-line); box-shadow:none; }
+.remuneration014 .entete-in { min-height:92px; }
+.remuneration014 .marque,.remuneration014 .nav-large a { color:var(--r14-ink); }
+.remuneration014 .nav-large { gap:22px; }
+.remuneration014 .nav-large a { font-size:13px; }
+.remuneration014 .menu summary { color:var(--r14-ink); border-color:var(--r14-line); }
+.remuneration014 .menu-liste { background:var(--r14-paper); border-color:var(--r14-line); }
+.remuneration014 .menu-liste a { color:var(--r14-ink); }
+.remuneration014 .bouton { display:inline-flex; min-height:48px; max-width:100%; align-items:center; justify-content:center; padding:13px 18px; border:1px solid var(--r14-accent); border-radius:8px; background:var(--r14-accent); color:var(--r14-inverse); font-size:14px; line-height:1.5; text-align:center; white-space:normal; text-decoration:none; box-shadow:none; }
+.remuneration014 .bouton-petit { min-height:44px; font-size:12px; }
+.remuneration014 .hero { padding:56px 0 36px; background:transparent; border:0; }
+.remuneration014 .hero .large { display:block; padding-block:0; text-align:left; }
+.remuneration014 .hero h1 { max-width:1000px; margin:18px 0 25px; font-size:clamp(38px,4.7vw,64px); line-height:1.08; letter-spacing:-.045em; font-weight:720; }
+.remuneration014 .hero .remuneration014-intro { max-width:870px; font-size:19px; line-height:1.7; }
+.remuneration014 .hero-actions { display:flex; flex-wrap:wrap; gap:20px 28px; align-items:center; margin-top:25px; }
+.remuneration014-secondary { display:inline-flex; min-height:48px; align-items:center; font-size:14px; font-weight:650; }
+.remuneration014 .remuneration014-reading-meta { margin-top:22px; font-size:12px; }
+
+
+.remuneration014-payment { max-width:960px; margin-top:30px; padding:18px 23px; border-left:3px solid var(--r14-accent); background:var(--r14-soft); border-radius:0 8px 8px 0; }
+.remuneration014-payment p { margin:0; font-size:14px; }
+.remuneration014-jumps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; padding-bottom:35px; }
+.remuneration014-jumps a { display:flex; min-height:54px; align-items:center; padding:15px 18px; border:1px solid var(--r14-line); border-radius:8px; background:var(--r14-paper); color:var(--r14-ink); font-size:13px; line-height:1.7; }
+.remuneration014 main > .bloc { margin:0; padding:48px 0; border:0; border-top:1px solid var(--r14-line); border-radius:0; background:transparent; box-shadow:none; }
+.remuneration014-skip { position:absolute; left:-999rem; }
+.remuneration014-skip:focus { left:16px; top:16px; z-index:100; padding:14px; border:2px solid var(--r14-accent); background:var(--r14-paper); }
+.remuneration014-section-head { max-width:880px; margin-bottom:30px; }
+.remuneration014 .remuneration014-eyebrow { margin:0 0 13px; color:var(--r14-muted); font-size:11px; font-weight:700; line-height:1.6; letter-spacing:.08em; text-transform:uppercase; }
+.remuneration014-notions { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.remuneration014-notions article { min-width:0; padding:27px; border:1px solid var(--r14-line); border-radius:10px; background:var(--r14-paper); }
+.remuneration014-notions p:last-child { margin-bottom:0; }
+.remuneration014-split { display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:start; }
+.remuneration014-split > * { min-width:0; }
+.remuneration014-split > div > p:first-child { margin-top:0; }
+.remuneration014-method { margin-top:36px; }
+.remuneration014-method h3 { padding-top:23px; border-top:2px solid var(--r14-accent); }
+.remuneration014-preparation { display:grid; grid-template-columns:.9fr 1.1fr; gap:70px; align-items:start; }
+.remuneration014-canvas { margin:0; padding:0 28px; border:1px solid var(--r14-line); border-radius:10px; background:var(--r14-paper); }
+.remuneration014-canvas > div { padding:23px 0; border-top:1px solid var(--r14-line); }
+.remuneration014-canvas > div:first-child { border-top:0; }
+.remuneration014-canvas dt { margin:0 0 10px; color:var(--r14-ink); font-size:17px; font-weight:650; }
+.remuneration014-canvas dd { margin:0; font-size:15px; line-height:1.8; }
+.remuneration014-cases { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.remuneration014-cases article { min-width:0; padding:27px; border:1px solid var(--r14-line); border-radius:10px; background:var(--r14-paper); }
+.remuneration014-cases article h3 { font-size:24px; }
+.remuneration014-cases article p { margin-bottom:0; font-size:15px; }
+.remuneration014-text-link { display:inline-flex; align-items:center; min-height:44px; max-width:100%; margin-top:16px; font-size:14px; line-height:1.7; font-weight:650; }
+.remuneration014-faq { max-width:920px; }
+.remuneration014-faq details { padding:20px 0; border-top:1px solid var(--r14-line); }
+.remuneration014-faq details:last-child { border-bottom:1px solid var(--r14-line); }
+.remuneration014-faq summary { cursor:pointer; color:var(--r14-ink); font-size:18px; line-height:1.6; font-weight:600; }
+.remuneration014-faq details > p { margin-bottom:0; font-size:15px; }
+.remuneration014-next { display:flex; align-items:start; justify-content:space-between; gap:50px; }
+.remuneration014-next > p { max-width:600px; margin:0; font-size:14px; }
+.remuneration014-next nav { display:grid; gap:15px; flex:1; }
+.remuneration014-next a { font-size:13px; line-height:1.8; }
+.remuneration014 .pied { margin:0; padding:35px 0; border-top:1px solid var(--r14-line); background:var(--r14-paper); color:var(--r14-muted); }
+.remuneration014 .pied ul { display:flex; flex-wrap:wrap; gap:10px 24px; padding:0; list-style:none; }
+.remuneration014 .pied a { color:var(--r14-muted); font-size:12px; }
+.remuneration014 .pied p { max-width:none; font-size:12px; }
+.remuneration014 .pied .marque { color:var(--r14-ink); font-size:21px; }
+.remuneration014 .affichage button,.remuneration014 .v-motion-control { min-height:44px; border:1px solid var(--r14-line); background:var(--r14-bg); color:var(--r14-ink); font-size:12px; }
+.remuneration014 .affichage button[aria-pressed=true] { border-color:var(--r14-accent); background:var(--r14-soft); }
+.remuneration014-motion { margin-top:16px; }
+@media(max-width:900px) { .remuneration014 .large { width:calc(100% - 48px); } .remuneration014-split,.remuneration014-preparation { gap:36px; } .remuneration014-notions article,.remuneration014-cases article { padding:23px; } .remuneration014-next { gap:35px; } }
+@media(max-width:700px) { .remuneration014 .large { width:calc(100% - 36px); } .remuneration014 .entete-in { min-height:76px; } .remuneration014 .entete-in > .bouton-petit { display:none; } .remuneration014 .hero { padding:35px 0 27px; } .remuneration014 .hero h1 { font-size:clamp(35px,9.5vw,46px); margin-block:15px 22px; } .remuneration014 .hero .remuneration014-intro { font-size:16px; line-height:1.75; } .remuneration014 .hero-actions { display:block; } .remuneration014-secondary { margin-top:14px; } .remuneration014-payment { padding:18px; } .remuneration014-jumps { display:block; padding-bottom:24px; } .remuneration014-jumps a { margin-top:8px; min-height:48px; } .remuneration014 main > .bloc { padding-block:34px; } .remuneration014 [id] { scroll-margin-top:90px; } .remuneration014 h2 { font-size:30px; } .remuneration014 h3 { font-size:22px; } .remuneration014 p { font-size:15px; } .remuneration014-section-head { margin-bottom:25px; } .remuneration014-notions,.remuneration014-split,.remuneration014-preparation,.remuneration014-cases,.remuneration014-next { display:block; } .remuneration014-notions article,.remuneration014-cases article { margin-top:16px; padding:25px 22px; } .remuneration014-cases article h3 { font-size:23px; } .remuneration014-canvas { padding-inline:23px; } .remuneration014-canvas dd { font-size:14px; } .remuneration014-split > div + div { margin-top:25px; } .remuneration014-faq summary { font-size:17px; } .remuneration014-next nav { margin-top:20px; } .remuneration014 .pied { padding-top:26px; } .remuneration014 .pied ul { gap:8px 19px; } }
+@media(prefers-reduced-motion:reduce) { html:has(body.remuneration014) { scroll-behavior:auto; } .remuneration014 *,.remuneration014 *::before,.remuneration014 *::after { animation:none !important; transition:none !important; } }
+html[data-motion=paused]:has(body.remuneration014) { scroll-behavior:auto; }
+html[data-motion=paused] .remuneration014 *,html[data-motion=paused] .remuneration014 *::before,html[data-motion=paused] .remuneration014 *::after { animation:none !important; transition:none !important; }
