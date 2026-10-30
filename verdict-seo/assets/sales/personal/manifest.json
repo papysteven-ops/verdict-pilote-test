@@ -1,7 +1,7 @@
 {
   "schema": "verdict-personal-app-captures/v1",
-  "application": "Verdict — atelier personnel A9",
-  "method": "Captures natives du navigateur, navigation et défilement ordinaires. Aucun compte, aucune modification des données, du DOM, des styles ou des pixels.",
+  "application": "Verdict — atelier personnel A9, présentation avec deux projets",
+  "method": "Native Chromium screenshots of the independent two-project presentation copy; only initial portfolio factory differs from the protected source. Financial engine, project data, recipes and original application styles unchanged. Ordinary navigation only; no DOM/CSS/data injection, cropping or pixel editing.",
   "context": "Deux prévisionnels personnels issus des classeurs du fondateur. Activités et historiques d’essais simulés ; aucun résultat d’exploitation client revendiqué.",
   "indexNote": "Les repères de lecture de l’application ont évolué : ses indices ne reproduisent pas à l’identique ceux du classeur. Les résultats annuels avant impôt sont conservés.",
   "files": [
@@ -9,84 +9,120 @@
       "id": "perso-chicky-punch-desktop",
       "file": "chicky-structure.png",
       "sitePath": "assets/sales/personal/chicky-structure.png",
-      "sha256": "7377b336750525c679e203c70882e73fff583ce056fc005e9f1e7e4c144b8645",
-      "bytes": 296084,
+      "sha256": "56696524e24f9e3f290716a05add308adc3ce58d60b478a8d906d1becbd1759b",
+      "bytes": 289055,
       "width": 1440,
       "height": 960,
       "project": "Chicky Punch",
-      "capturedAt": "2026-10-29T23:03:32.496Z",
+      "capturedAt": "2026-10-30T00:04:29.382Z",
       "screen": "Native overview / audit, annual economic Structure reference 2025",
       "displayedAnnualResult": "Solde avant impôt : -44 696,25 €",
       "preTaxAnnualProjectionEUR": -44696.25,
       "nativePixelsUnedited": true,
       "simulationIndicator": "Référence économique 2025 · Simulation",
-      "sourceEdition": "Atelier personnel A9, source non modifiée",
+      "sourceEdition": "Atelier SEO — deux projets personnels, issu de A9 ; moteurs et données conservés.",
       "visuallyReviewed": true,
-      "recapturedForTopicRefresh": true
+      "recapturedForTopicRefresh": true,
+      "portfolioModels": [
+        "Clean Fuel",
+        "Chicky Punch"
+      ]
     },
     {
       "id": "perso-clean-fuel-desktop",
       "file": "clean-structure.png",
       "sitePath": "assets/sales/personal/clean-structure.png",
-      "sha256": "79bd8ce6a8ab72c8d1353c7f2aae69bf9cbe971903b1c1a989d65c2b6d9b575f",
-      "bytes": 288221,
+      "sha256": "7be07d3bd5b7d88107f081039f5add9ee2b81e35b00143fe22cd5390e6dcb1ba",
+      "bytes": 281068,
       "width": 1440,
       "height": 960,
       "project": "Clean Fuel",
-      "capturedAt": "2026-10-29T23:03:36.535Z",
+      "capturedAt": "2026-10-30T00:08:18.740Z",
       "screen": "Native overview / audit, annual economic Structure reference 2025",
       "displayedAnnualResult": "Solde avant impôt : 38 767,50 €",
       "preTaxAnnualProjectionEUR": 38767.5,
       "nativePixelsUnedited": true,
       "simulationIndicator": "Référence économique 2025 · Simulation",
-      "sourceEdition": "Atelier personnel A9, source non modifiée",
+      "sourceEdition": "Atelier SEO — deux projets personnels, issu de A9 ; moteurs et données conservés.",
       "visuallyReviewed": true,
-      "recapturedForTopicRefresh": true
+      "recapturedForTopicRefresh": true,
+      "portfolioModels": [
+        "Clean Fuel",
+        "Chicky Punch"
+      ]
     },
     {
       "id": "perso-chicky-punch-mobile",
       "file": "chicky-structure-mobile.png",
       "sitePath": "assets/sales/personal/chicky-structure-mobile.png",
-      "sha256": "9dd33ff1090aa102c23b4cebb2e2a7c05904a0daec4b8533a1e1bae11df9923f",
-      "bytes": 141796,
+      "sha256": "9cd46c6a92f9ae5f84a2462645be4f63a94a4bf879c42dd300c4663f59ea48e7",
+      "bytes": 143037,
       "width": 390,
       "height": 844,
       "project": "Chicky Punch",
-      "capturedAt": "2026-10-29T23:03:40.168Z",
+      "capturedAt": "2026-10-30T00:05:36.520Z",
       "screen": "Native overview / audit, annual economic Structure reference 2025",
       "displayedAnnualResult": "Solde avant impôt : -44 696,25 €",
       "preTaxAnnualProjectionEUR": -44696.25,
       "nativePixelsUnedited": true,
       "simulationIndicator": "Référence économique 2025 · Simulation",
-      "sourceEdition": "Atelier personnel A9, source non modifiée",
+      "sourceEdition": "Atelier SEO — deux projets personnels, issu de A9 ; moteurs et données conservés.",
       "visuallyReviewed": true,
-      "recapturedForTopicRefresh": true
+      "recapturedForTopicRefresh": true,
+      "portfolioModels": [
+        "Clean Fuel",
+        "Chicky Punch"
+      ]
     },
     {
       "id": "perso-clean-fuel-mobile",
       "file": "clean-structure-mobile.png",
       "sitePath": "assets/sales/personal/clean-structure-mobile.png",
-      "sha256": "8cb6e3e3deec8b3efb07af09c021ef29c21b874907f39e14b17da2cc09da3d39",
-      "bytes": 142960,
+      "sha256": "b18ce47f04fe95a78a61457121bb46ad4f031b24c01284dce1e46d9842560113",
+      "bytes": 142849,
       "width": 390,
       "height": 844,
       "project": "Clean Fuel",
-      "capturedAt": "2026-10-29T23:03:43.901Z",
+      "capturedAt": "2026-10-30T00:06:09.988Z",
       "screen": "Native overview / audit, annual economic Structure reference 2025",
       "displayedAnnualResult": "Solde avant impôt : 38 767,50 €",
       "preTaxAnnualProjectionEUR": 38767.5,
       "nativePixelsUnedited": true,
       "simulationIndicator": "Référence économique 2025 · Simulation",
-      "sourceEdition": "Atelier personnel A9, source non modifiée",
+      "sourceEdition": "Atelier SEO — deux projets personnels, issu de A9 ; moteurs et données conservés.",
       "visuallyReviewed": true,
-      "recapturedForTopicRefresh": true
+      "recapturedForTopicRefresh": true,
+      "portfolioModels": [
+        "Clean Fuel",
+        "Chicky Punch"
+      ]
     }
   ],
   "sourceFilesSHA256": {
     "index.html": "91cfba0521f7ef7b65a61f51cc449829043877b4474cec1f16867609c2c26fe4",
+    "modules/verdict/verdict-app.html": "292a8e727eaca0b1469fc78e5035f713466608bdb8ba9998810d5ab245162d41",
+    "internal/personal-models-a9.js": "2c6a6ffa4f4cc909b9b3ad2425429308f4a416b3161fcb2ae36fa2854fd150db"
+  },
+  "recaptureSession": "Two-project selector cleanup requested for the SEO screenshots",
+  "captureTimezone": "Europe/Paris",
+  "selectionNote": "Le sélecteur de cette copie de présentation propose uniquement Clean Fuel et Chicky Punch. Les moteurs, données et cartes des deux projets sont conservés.",
+  "sourceConfiguration": {
+    "type": "two-personal-projects-presentation",
+    "models": [
+      "Clean Fuel",
+      "Chicky Punch"
+    ],
+    "ids": [
+      "perso-clean-fuel",
+      "perso-chicky-punch"
+    ],
+    "projectEnginesAndDataPreserved": true,
+    "protectedMasterModified": false,
+    "actualPersonalAppModified": false
+  },
+  "baseSourceFilesSHA256": {
+    "index.html": "91cfba0521f7ef7b65a61f51cc449829043877b4474cec1f16867609c2c26fe4",
     "modules/verdict/verdict-app.html": "4c58670cbaabb004315116bbac41b1b8f08a58140d8770c55e72fc0d87d430ef",
     "internal/personal-models-a9.js": "637e2945f03dfb90bb51299108aa67412c78fb080e146a555a4e9f48a4605991"
-  },
-  "recaptureSession": "Complete topic-specific screenshot refresh",
-  "captureTimezone": "Europe/Paris"
+  }
 }
