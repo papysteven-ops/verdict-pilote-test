@@ -1,0 +1,81 @@
+/* Private page013 candidate: orient a question, without calculating a diagnosis. */
+body.orientation013 { --d13-bg:#f3f5f7; --d13-paper:#fff; --d13-ink:#1b2834; --d13-muted:#526373; --d13-line:#d8e1e9; --d13-soft:#e8eef5; --d13-accent:#245ba3; --d13-inverse:#fff; margin:0; background:var(--d13-bg); color:var(--d13-ink); font:16px/1.75 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color-scheme:light; }
+html[data-theme=dark] body.orientation013 { --d13-bg:#111720; --d13-paper:#192330; --d13-ink:#edf3fa; --d13-muted:#b7c7d9; --d13-line:#38495c; --d13-soft:#223247; --d13-accent:#a6ccff; --d13-inverse:#15243a; color-scheme:dark; }
+@media(prefers-color-scheme:dark) { html:not([data-theme=light]) body.orientation013 { --d13-bg:#111720; --d13-paper:#192330; --d13-ink:#edf3fa; --d13-muted:#b7c7d9; --d13-line:#38495c; --d13-soft:#223247; --d13-accent:#a6ccff; --d13-inverse:#15243a; color-scheme:dark; } }
+.orientation013 .large { width:min(1180px,calc(100% - 80px)); max-width:none; margin-inline:auto; }
+.orientation013 :is(h1,h2,h3) { color:var(--d13-ink); font-family:inherit; font-weight:650; text-wrap:balance; }
+.orientation013 h2 { margin:0 0 22px; font-size:clamp(29px,3.1vw,42px); line-height:1.18; letter-spacing:-.035em; }
+.orientation013 h3 { margin:0 0 16px; font-size:23px; line-height:1.35; letter-spacing:-.02em; }
+.orientation013 :is(p,li,dd) { color:var(--d13-muted); }
+.orientation013 p { font-size:16px; line-height:1.8; }
+.orientation013 a { color:var(--d13-accent); text-underline-offset:4px; }
+.orientation013 :is(a,button,summary):focus-visible { outline:3px solid var(--d13-accent); outline-offset:5px; }
+.orientation013 [id] { scroll-margin-top:110px; }
+.orientation013 .entete { background:var(--d13-bg); border-bottom:1px solid var(--d13-line); box-shadow:none; }
+.orientation013 .entete-in { min-height:92px; }
+.orientation013 .marque,.orientation013 .nav-large a { color:var(--d13-ink); }
+.orientation013 .nav-large { gap:22px; }
+.orientation013 .nav-large a { font-size:13px; }
+.orientation013 .menu summary { color:var(--d13-ink); border-color:var(--d13-line); }
+.orientation013 .menu-liste { background:var(--d13-paper); border-color:var(--d13-line); }
+.orientation013 .menu-liste a { color:var(--d13-ink); }
+.orientation013 .bouton { display:inline-flex; min-height:48px; max-width:100%; align-items:center; justify-content:center; padding:13px 18px; border:1px solid var(--d13-accent); border-radius:8px; background:var(--d13-accent); color:var(--d13-inverse); font-size:14px; line-height:1.5; text-align:center; white-space:normal; text-decoration:none; box-shadow:none; }
+.orientation013 .bouton-petit { min-height:44px; font-size:12px; }
+.orientation013 .hero { padding:56px 0 36px; background:transparent; border:0; }
+.orientation013 .hero .large { display:block; padding-block:0; text-align:left; }
+.orientation013 .hero h1 { max-width:1000px; margin:18px 0 25px; font-size:clamp(38px,4.7vw,64px); line-height:1.08; letter-spacing:-.045em; font-weight:720; }
+.orientation013 .hero .orientation013-intro { max-width:870px; font-size:19px; line-height:1.7; }
+.orientation013 .hero-actions { display:flex; flex-wrap:wrap; gap:20px 28px; align-items:center; margin-top:25px; }
+.orientation013-secondary { display:inline-flex; min-height:48px; align-items:center; font-size:14px; font-weight:650; }
+.orientation013 .orientation013-reading-meta { margin-top:22px; font-size:12px; }
+
+.orientation013-payment { max-width:960px; margin-top:30px; padding:22px 25px; border-left:3px solid var(--d13-accent); border-radius:0 8px 8px 0; background:var(--d13-soft); }
+.orientation013-payment strong { display:block; color:var(--d13-ink); font-size:17px; line-height:1.6; }
+.orientation013-payment p { margin:8px 0 0; font-size:14px; }
+.orientation013-jumps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; padding-bottom:35px; }
+.orientation013-jumps a { display:flex; min-height:54px; align-items:center; padding:15px 18px; border:1px solid var(--d13-line); border-radius:8px; background:var(--d13-paper); color:var(--d13-ink); font-size:13px; line-height:1.7; }
+.orientation013 main > .bloc { margin:0; padding:48px 0; border:0; border-top:1px solid var(--d13-line); border-radius:0; background:transparent; box-shadow:none; }
+.orientation013-skip { position:absolute; left:-999rem; }
+.orientation013-skip:focus { left:16px; top:16px; z-index:100; padding:14px; border:2px solid var(--d13-accent); background:var(--d13-paper); }
+.orientation013-section-head { max-width:880px; margin-bottom:30px; }
+.orientation013 .orientation013-eyebrow { margin:0 0 13px; color:var(--d13-muted); font-size:11px; font-weight:700; line-height:1.6; letter-spacing:.08em; text-transform:uppercase; }
+.orientation013-common { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+.orientation013-common article { min-width:0; padding:28px; border:1px solid var(--d13-line); border-radius:10px; background:var(--d13-paper); }
+.orientation013-common p:last-child { margin-bottom:0; }
+.orientation013-routes { display:grid; gap:13px; }
+.orientation013-route { min-width:0; border:1px solid var(--d13-line); border-radius:10px; background:var(--d13-paper); }
+.orientation013-route > summary { padding:23px 27px; color:var(--d13-ink); font-size:20px; line-height:1.6; font-weight:650; cursor:pointer; }
+.orientation013-route > summary::marker { color:var(--d13-accent); }
+.orientation013-route[open] > summary { border-bottom:1px solid var(--d13-line); }
+.orientation013-route-body { padding:25px 28px; }
+.orientation013 .orientation013-examine { margin:0 0 22px; max-width:900px; color:var(--d13-ink); font-size:17px; }
+.orientation013-route dl { margin:0; }
+.orientation013-route dl > div { display:grid; grid-template-columns:190px 1fr; gap:25px; padding:16px 0; border-top:1px solid var(--d13-line); }
+.orientation013-route dt { color:var(--d13-ink); font-size:14px; line-height:1.8; font-weight:650; }
+.orientation013-route dd { margin:0; font-size:15px; line-height:1.8; }
+.orientation013-text-link { display:inline-flex; align-items:center; min-height:44px; max-width:100%; margin-top:16px; font-size:14px; line-height:1.7; font-weight:650; }
+.orientation013-split { display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:start; }
+.orientation013-split > * { min-width:0; }
+.orientation013-split > div > p:first-child { margin-top:0; }
+.orientation013-faq { max-width:920px; }
+.orientation013-faq details { padding:20px 0; border-top:1px solid var(--d13-line); }
+.orientation013-faq details:last-child { border-bottom:1px solid var(--d13-line); }
+.orientation013-faq summary { cursor:pointer; color:var(--d13-ink); font-size:18px; line-height:1.6; font-weight:600; }
+.orientation013-faq details > p { margin-bottom:0; font-size:15px; }
+.orientation013-next { display:flex; align-items:start; justify-content:space-between; gap:50px; }
+.orientation013-next > p { max-width:600px; margin:0; font-size:14px; }
+.orientation013-next nav { display:grid; gap:15px; flex:1; }
+.orientation013-next a { font-size:13px; line-height:1.8; }
+.orientation013 .pied { margin:0; padding:35px 0; border-top:1px solid var(--d13-line); background:var(--d13-paper); color:var(--d13-muted); }
+.orientation013 .pied ul { display:flex; flex-wrap:wrap; gap:10px 24px; padding:0; list-style:none; }
+.orientation013 .pied a { color:var(--d13-muted); font-size:12px; }
+.orientation013 .pied p { max-width:none; font-size:12px; }
+.orientation013 .pied .marque { color:var(--d13-ink); font-size:21px; }
+.orientation013 .affichage button,.orientation013 .v-motion-control { min-height:44px; border:1px solid var(--d13-line); background:var(--d13-bg); color:var(--d13-ink); font-size:12px; }
+.orientation013 .affichage button[aria-pressed=true] { border-color:var(--d13-accent); background:var(--d13-soft); }
+.orientation013-motion { margin-top:16px; }
+@media(max-width:900px) { .orientation013 .large { width:calc(100% - 48px); } .orientation013-split { gap:36px; } .orientation013-common article { padding:26px; } .orientation013-route dl > div { grid-template-columns:150px 1fr; gap:20px; } .orientation013-next { gap:35px; } }
+@media(max-width:700px) { .orientation013 .large { width:calc(100% - 36px); } .orientation013 .entete-in { min-height:76px; } .orientation013 .entete-in > .bouton-petit { display:none; } .orientation013 .hero { padding:35px 0 27px; } .orientation013 .hero h1 { font-size:clamp(35px,9.5vw,46px); margin-block:15px 22px; } .orientation013 .hero .orientation013-intro { font-size:16px; line-height:1.75; } .orientation013 .hero-actions { display:block; } .orientation013-secondary { margin-top:14px; } .orientation013-payment { padding:19px; } .orientation013-payment strong { font-size:16px; } .orientation013-jumps { display:block; padding-bottom:24px; } .orientation013-jumps a { margin-top:8px; min-height:48px; } .orientation013 main > .bloc { padding-block:34px; } .orientation013 [id] { scroll-margin-top:90px; } .orientation013 h2 { font-size:30px; } .orientation013 h3 { font-size:22px; } .orientation013 p { font-size:15px; } .orientation013-section-head { margin-bottom:25px; } .orientation013-common,.orientation013-split,.orientation013-next { display:block; } .orientation013-common article { padding:25px 22px; margin-top:18px; } .orientation013-route > summary { padding:21px; font-size:18px; } .orientation013-route-body { padding:22px; } .orientation013 .orientation013-examine { font-size:16px; } .orientation013-route dl > div { display:block; padding-block:16px; } .orientation013-route dt { margin-bottom:8px; } .orientation013-route dd { font-size:14px; } .orientation013-split > div + div { margin-top:25px; } .orientation013-faq summary { font-size:17px; } .orientation013-next nav { margin-top:20px; } .orientation013 .pied { padding-top:26px; } .orientation013 .pied ul { gap:8px 19px; } }
+@media(prefers-reduced-motion:reduce) { html:has(body.orientation013) { scroll-behavior:auto; } .orientation013 *,.orientation013 *::before,.orientation013 *::after { animation:none !important; transition:none !important; } }
+html[data-motion=paused]:has(body.orientation013) { scroll-behavior:auto; }
+html[data-motion=paused] .orientation013 *,html[data-motion=paused] .orientation013 *::before,html[data-motion=paused] .orientation013 *::after { animation:none !important; transition:none !important; }
